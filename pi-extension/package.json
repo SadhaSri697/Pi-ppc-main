@@ -1,0 +1,39 @@
+{
+  "name": "pi-project-context",
+  "version": "0.1.0",
+  "description": "PI extension for persistent project context management",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SadhaSri697/pi-ppc-main.git"
+  },
+  "author": "sadhasri697",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "pi-coding-agent",
+    "project-context"
+  ],
+  "pi": {
+    "extensions": [
+      "./src/extension/index.ts"
+    ],
+    "skills": [
+      "./skills"
+    ],
+    "prompts": [
+      "./prompts"
+    ]
+  },
+  "engines": {
+    "pi": ">=0.70.0"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "peerDependenciesMeta": {
+    "@earendil-works/pi-coding-agent": {
+      "optional": true
+    }
+  }
+}

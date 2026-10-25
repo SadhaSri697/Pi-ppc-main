@@ -1,0 +1,134 @@
+{
+  "pi-extension\\src\\extension\\index.ts": [
+    "node:fs",
+    "node:path",
+    "node:os",
+    "node:child_process",
+    "*",
+    "{"
+  ],
+  "src\\cli\\context.ts": [
+    "../core/context-engine/index.js",
+    "path",
+    "{",
+    "*"
+  ],
+  "src\\cli\\index.ts": [
+    "path",
+    "./init.js",
+    "./context.js",
+    "./summarize.js",
+    "./memory.js",
+    "./status.js",
+    "./sync.js",
+    "*",
+    "{"
+  ],
+  "src\\cli\\init.ts": [
+    "fs",
+    "path",
+    "*"
+  ],
+  "src\\cli\\memory.ts": [
+    "fs",
+    "path",
+    "*"
+  ],
+  "src\\cli\\status.ts": [
+    "fs",
+    "path",
+    "*"
+  ],
+  "src\\cli\\summarize.ts": [
+    "../core/memory-engine/index.js",
+    "../core/context-engine/index.js",
+    "path",
+    "fs",
+    "{",
+    "*"
+  ],
+  "src\\cli\\sync.ts": [
+    "../core/graph-engine/index.js",
+    "../core/memory-engine/index.js",
+    "path",
+    "{",
+    "*"
+  ],
+  "src\\core\\context-engine\\index.ts": [
+    "fs",
+    "path",
+    "*",
+    "{"
+  ],
+  "src\\core\\graph-engine\\index.ts": [
+    "fs",
+    "path",
+    "child_process",
+    "*",
+    "{"
+  ],
+  "src\\core\\memory-engine\\index.ts": [
+    "fs",
+    "path",
+    "*",
+    "{"
+  ],
+  "src\\index.ts": [
+    "./cli/init.js",
+    "./cli/context.js",
+    "./cli/status.js",
+    "./cli/memory.js",
+    "./cli/summarize.js",
+    "./cli/sync.js",
+    "{"
+  ],
+  "src\\integrations\\extension-system\\agent.ts": [
+    "fs",
+    "path",
+    "child_process",
+    "url",
+    "*",
+    "{"
+  ],
+  "src\\integrations\\git.ts": [
+    "child_process",
+    "fs",
+    "path",
+    "{",
+    "*"
+  ],
+  "src\\integrations\\vscode.ts": [
+    "../core/context-engine/index.js",
+    "path",
+    "{",
+    "*"
+  ],
+  "tests\\cli.test.ts": [
+    "node:test",
+    "node:assert",
+    "path",
+    "fs",
+    "os",
+    "url",
+    "../src/cli/init.js",
+    "../src/cli/status.js",
+    "../src/cli/context.js",
+    "../src/cli/sync.js",
+    "../src/cli/memory.js",
+    "{",
+    "assert",
+    "*"
+  ],
+  "tests\\engines.test.ts": [
+    "node:test",
+    "node:assert",
+    "path",
+    "url",
+    "../src/core/context-engine/index.js",
+    "../src/core/graph-engine/index.js",
+    "../src/core/memory-engine/index.js",
+    "{",
+    "assert",
+    "*"
+  ]
+}

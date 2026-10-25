@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+dist/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# pi cache
+.pi/cache/
+# PI Agent state (runtime - don't commit)
+.pi/agent.*.state.json
+
+# Local unzipped folder
+pi-ppc-main-main/

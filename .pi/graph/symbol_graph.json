@@ -1,0 +1,3042 @@
+{
+  "pi-extension\\src\\extension\\index.ts:ProjectContextState": {
+    "name": "ProjectContextState",
+    "type": "interface",
+    "file": "pi-extension\\src\\extension\\index.ts",
+    "line": 15,
+    "depends_on": [],
+    "defined_in": "pi-extension\\src\\extension\\index.ts"
+  },
+  "pi-extension\\src\\extension\\index.ts:state": {
+    "name": "state",
+    "type": "variable",
+    "file": "pi-extension\\src\\extension\\index.ts",
+    "line": 23,
+    "depends_on": [],
+    "defined_in": "pi-extension\\src\\extension\\index.ts"
+  },
+  "pi-extension\\src\\extension\\index.ts:locations": {
+    "name": "locations",
+    "type": "variable",
+    "file": "pi-extension\\src\\extension\\index.ts",
+    "line": 33,
+    "depends_on": [],
+    "defined_in": "pi-extension\\src\\extension\\index.ts"
+  },
+  "pi-extension\\src\\extension\\index.ts:pathEnv": {
+    "name": "pathEnv",
+    "type": "variable",
+    "file": "pi-extension\\src\\extension\\index.ts",
+    "line": 42,
+    "depends_on": [],
+    "defined_in": "pi-extension\\src\\extension\\index.ts"
+  },
+  "pi-extension\\src\\extension\\index.ts:pathDirs": {
+    "name": "pathDirs",
+    "type": "variable",
+    "file": "pi-extension\\src\\extension\\index.ts",
+    "line": 43,
+    "depends_on": [],
+    "defined_in": "pi-extension\\src\\extension\\index.ts"
+  },
+  "pi-extension\\src\\extension\\index.ts:piPath": {
+    "name": "piPath",
+    "type": "variable",
+    "file": "pi-extension\\src\\extension\\index.ts",
+    "line": 46,
+    "depends_on": [],
+    "defined_in": "pi-extension\\src\\extension\\index.ts"
+  },
+  "pi-extension\\src\\extension\\index.ts:devPath": {
+    "name": "devPath",
+    "type": "variable",
+    "file": "pi-extension\\src\\extension\\index.ts",
+    "line": 53,
+    "depends_on": [],
+    "defined_in": "pi-extension\\src\\extension\\index.ts"
+  },
+  "pi-extension\\src\\extension\\index.ts:binary": {
+    "name": "binary",
+    "type": "variable",
+    "file": "pi-extension\\src\\extension\\index.ts",
+    "line": 63,
+    "depends_on": [],
+    "defined_in": "pi-extension\\src\\extension\\index.ts"
+  },
+  "pi-extension\\src\\extension\\index.ts:proc": {
+    "name": "proc",
+    "type": "variable",
+    "file": "pi-extension\\src\\extension\\index.ts",
+    "line": 64,
+    "depends_on": [],
+    "defined_in": "pi-extension\\src\\extension\\index.ts"
+  },
+  "pi-extension\\src\\extension\\index.ts:stdout": {
+    "name": "stdout",
+    "type": "variable",
+    "file": "pi-extension\\src\\extension\\index.ts",
+    "line": 74,
+    "depends_on": [],
+    "defined_in": "pi-extension\\src\\extension\\index.ts"
+  },
+  "pi-extension\\src\\extension\\index.ts:stderr": {
+    "name": "stderr",
+    "type": "variable",
+    "file": "pi-extension\\src\\extension\\index.ts",
+    "line": 75,
+    "depends_on": [],
+    "defined_in": "pi-extension\\src\\extension\\index.ts"
+  },
+  "pi-extension\\src\\extension\\index.ts:piDir": {
+    "name": "piDir",
+    "type": "variable",
+    "file": "pi-extension\\src\\extension\\index.ts",
+    "line": 84,
+    "depends_on": [],
+    "defined_in": "pi-extension\\src\\extension\\index.ts"
+  },
+  "pi-extension\\src\\extension\\index.ts:result": {
+    "name": "result",
+    "type": "variable",
+    "file": "pi-extension\\src\\extension\\index.ts",
+    "line": 269,
+    "depends_on": [],
+    "defined_in": "pi-extension\\src\\extension\\index.ts"
+  },
+  "pi-extension\\src\\extension\\index.ts:parsed": {
+    "name": "parsed",
+    "type": "variable",
+    "file": "pi-extension\\src\\extension\\index.ts",
+    "line": 96,
+    "depends_on": [],
+    "defined_in": "pi-extension\\src\\extension\\index.ts"
+  },
+  "pi-extension\\src\\extension\\index.ts:hooksDir": {
+    "name": "hooksDir",
+    "type": "variable",
+    "file": "pi-extension\\src\\extension\\index.ts",
+    "line": 108,
+    "depends_on": [],
+    "defined_in": "pi-extension\\src\\extension\\index.ts"
+  },
+  "pi-extension\\src\\extension\\index.ts:piCmd": {
+    "name": "piCmd",
+    "type": "variable",
+    "file": "pi-extension\\src\\extension\\index.ts",
+    "line": 111,
+    "depends_on": [],
+    "defined_in": "pi-extension\\src\\extension\\index.ts"
+  },
+  "pi-extension\\src\\extension\\index.ts:hookScript": {
+    "name": "hookScript",
+    "type": "variable",
+    "file": "pi-extension\\src\\extension\\index.ts",
+    "line": 115,
+    "depends_on": [],
+    "defined_in": "pi-extension\\src\\extension\\index.ts"
+  },
+  "pi-extension\\src\\extension\\index.ts:hooks": {
+    "name": "hooks",
+    "type": "variable",
+    "file": "pi-extension\\src\\extension\\index.ts",
+    "line": 122,
+    "depends_on": [],
+    "defined_in": "pi-extension\\src\\extension\\index.ts"
+  },
+  "pi-extension\\src\\extension\\index.ts:hookPath": {
+    "name": "hookPath",
+    "type": "variable",
+    "file": "pi-extension\\src\\extension\\index.ts",
+    "line": 124,
+    "depends_on": [],
+    "defined_in": "pi-extension\\src\\extension\\index.ts"
+  },
+  "pi-extension\\src\\extension\\index.ts:existing": {
+    "name": "existing",
+    "type": "variable",
+    "file": "pi-extension\\src\\extension\\index.ts",
+    "line": 125,
+    "depends_on": [],
+    "defined_in": "pi-extension\\src\\extension\\index.ts"
+  },
+  "pi-extension\\src\\extension\\index.ts:debounceTimer": {
+    "name": "debounceTimer",
+    "type": "variable",
+    "file": "pi-extension\\src\\extension\\index.ts",
+    "line": 137,
+    "depends_on": [],
+    "defined_in": "pi-extension\\src\\extension\\index.ts"
+  },
+  "pi-extension\\src\\extension\\index.ts:ignored": {
+    "name": "ignored",
+    "type": "variable",
+    "file": "pi-extension\\src\\extension\\index.ts",
+    "line": 139,
+    "depends_on": [],
+    "defined_in": "pi-extension\\src\\extension\\index.ts"
+  },
+  "pi-extension\\src\\extension\\index.ts:ext": {
+    "name": "ext",
+    "type": "variable",
+    "file": "pi-extension\\src\\extension\\index.ts",
+    "line": 150,
+    "depends_on": [],
+    "defined_in": "pi-extension\\src\\extension\\index.ts"
+  },
+  "pi-extension\\src\\extension\\index.ts:ToolDefinition": {
+    "name": "ToolDefinition",
+    "type": "interface",
+    "file": "pi-extension\\src\\extension\\index.ts",
+    "line": 163,
+    "depends_on": [],
+    "defined_in": "pi-extension\\src\\extension\\index.ts"
+  },
+  "pi-extension\\src\\extension\\index.ts:ExtensionAPI": {
+    "name": "ExtensionAPI",
+    "type": "interface",
+    "file": "pi-extension\\src\\extension\\index.ts",
+    "line": 171,
+    "depends_on": [],
+    "defined_in": "pi-extension\\src\\extension\\index.ts"
+  },
+  "pi-extension\\src\\extension\\index.ts:ExtensionContext": {
+    "name": "ExtensionContext",
+    "type": "interface",
+    "file": "pi-extension\\src\\extension\\index.ts",
+    "line": 177,
+    "depends_on": [],
+    "defined_in": "pi-extension\\src\\extension\\index.ts"
+  },
+  "pi-extension\\src\\extension\\index.ts:cwd": {
+    "name": "cwd",
+    "type": "variable",
+    "file": "pi-extension\\src\\extension\\index.ts",
+    "line": 185,
+    "depends_on": [],
+    "defined_in": "pi-extension\\src\\extension\\index.ts"
+  },
+  "pi-extension\\src\\extension\\index.ts:tool": {
+    "name": "tool",
+    "type": "variable",
+    "file": "pi-extension\\src\\extension\\index.ts",
+    "line": 212,
+    "depends_on": [],
+    "defined_in": "pi-extension\\src\\extension\\index.ts"
+  },
+  "pi-extension\\src\\extension\\index.ts:projectRoot": {
+    "name": "projectRoot",
+    "type": "variable",
+    "file": "pi-extension\\src\\extension\\index.ts",
+    "line": 247,
+    "depends_on": [],
+    "defined_in": "pi-extension\\src\\extension\\index.ts"
+  },
+  "pi-extension\\src\\extension\\index.ts:context": {
+    "name": "context",
+    "type": "variable",
+    "file": "pi-extension\\src\\extension\\index.ts",
+    "line": 258,
+    "depends_on": [],
+    "defined_in": "pi-extension\\src\\extension\\index.ts"
+  },
+  "pi-extension\\src\\extension\\index.ts:syncResult": {
+    "name": "syncResult",
+    "type": "variable",
+    "file": "pi-extension\\src\\extension\\index.ts",
+    "line": 273,
+    "depends_on": [],
+    "defined_in": "pi-extension\\src\\extension\\index.ts"
+  },
+  "pi-extension\\src\\extension\\index.ts:focusFile": {
+    "name": "focusFile",
+    "type": "variable",
+    "file": "pi-extension\\src\\extension\\index.ts",
+    "line": 281,
+    "depends_on": [],
+    "defined_in": "pi-extension\\src\\extension\\index.ts"
+  },
+  "pi-extension\\src\\extension\\index.ts:focusData": {
+    "name": "focusData",
+    "type": "variable",
+    "file": "pi-extension\\src\\extension\\index.ts",
+    "line": 282,
+    "depends_on": [],
+    "defined_in": "pi-extension\\src\\extension\\index.ts"
+  },
+  "pi-extension\\src\\extension\\index.ts:tasksFile": {
+    "name": "tasksFile",
+    "type": "variable",
+    "file": "pi-extension\\src\\extension\\index.ts",
+    "line": 291,
+    "depends_on": [],
+    "defined_in": "pi-extension\\src\\extension\\index.ts"
+  },
+  "pi-extension\\src\\extension\\index.ts:tasks": {
+    "name": "tasks",
+    "type": "variable",
+    "file": "pi-extension\\src\\extension\\index.ts",
+    "line": 292,
+    "depends_on": [],
+    "defined_in": "pi-extension\\src\\extension\\index.ts"
+  },
+  "pi-extension\\src\\extension\\index.ts:decisionsFile": {
+    "name": "decisionsFile",
+    "type": "variable",
+    "file": "pi-extension\\src\\extension\\index.ts",
+    "line": 306,
+    "depends_on": [],
+    "defined_in": "pi-extension\\src\\extension\\index.ts"
+  },
+  "pi-extension\\src\\extension\\index.ts:entry": {
+    "name": "entry",
+    "type": "variable",
+    "file": "pi-extension\\src\\extension\\index.ts",
+    "line": 307,
+    "depends_on": [],
+    "defined_in": "pi-extension\\src\\extension\\index.ts"
+  },
+  "pi-extension\\src\\extension\\index.ts:eventsFile": {
+    "name": "eventsFile",
+    "type": "variable",
+    "file": "pi-extension\\src\\extension\\index.ts",
+    "line": 312,
+    "depends_on": [],
+    "defined_in": "pi-extension\\src\\extension\\index.ts"
+  },
+  "pi-extension\\src\\extension\\index.ts:event": {
+    "name": "event",
+    "type": "variable",
+    "file": "pi-extension\\src\\extension\\index.ts",
+    "line": 313,
+    "depends_on": [],
+    "defined_in": "pi-extension\\src\\extension\\index.ts"
+  },
+  "pi-extension\\src\\extension\\index.ts:getPiBinary": {
+    "name": "getPiBinary",
+    "type": "function",
+    "file": "pi-extension\\src\\extension\\index.ts",
+    "line": 31,
+    "depends_on": [],
+    "defined_in": "pi-extension\\src\\extension\\index.ts"
+  },
+  "pi-extension\\src\\extension\\index.ts:runPiCommand": {
+    "name": "runPiCommand",
+    "type": "function",
+    "file": "pi-extension\\src\\extension\\index.ts",
+    "line": 61,
+    "depends_on": [],
+    "defined_in": "pi-extension\\src\\extension\\index.ts"
+  },
+  "pi-extension\\src\\extension\\index.ts:ensurePiInit": {
+    "name": "ensurePiInit",
+    "type": "function",
+    "file": "pi-extension\\src\\extension\\index.ts",
+    "line": 83,
+    "depends_on": [],
+    "defined_in": "pi-extension\\src\\extension\\index.ts"
+  },
+  "pi-extension\\src\\extension\\index.ts:syncProject": {
+    "name": "syncProject",
+    "type": "function",
+    "file": "pi-extension\\src\\extension\\index.ts",
+    "line": 93,
+    "depends_on": [],
+    "defined_in": "pi-extension\\src\\extension\\index.ts"
+  },
+  "pi-extension\\src\\extension\\index.ts:installGitHooks": {
+    "name": "installGitHooks",
+    "type": "function",
+    "file": "pi-extension\\src\\extension\\index.ts",
+    "line": 107,
+    "depends_on": [],
+    "defined_in": "pi-extension\\src\\extension\\index.ts"
+  },
+  "pi-extension\\src\\extension\\index.ts:setupFileWatcher": {
+    "name": "setupFileWatcher",
+    "type": "function",
+    "file": "pi-extension\\src\\extension\\index.ts",
+    "line": 132,
+    "depends_on": [],
+    "defined_in": "pi-extension\\src\\extension\\index.ts"
+  },
+  "pi-extension\\src\\extension\\index.ts:registerProjectContextExtension": {
+    "name": "registerProjectContextExtension",
+    "type": "function",
+    "file": "pi-extension\\src\\extension\\index.ts",
+    "line": 184,
+    "depends_on": [],
+    "defined_in": "pi-extension\\src\\extension\\index.ts"
+  },
+  "src\\cli\\context.ts:ContextOptions": {
+    "name": "ContextOptions",
+    "type": "interface",
+    "file": "src\\cli\\context.ts",
+    "line": 4,
+    "depends_on": [],
+    "defined_in": "src\\cli\\context.ts"
+  },
+  "src\\cli\\context.ts:ContextCommand": {
+    "name": "ContextCommand",
+    "type": "class",
+    "file": "src\\cli\\context.ts",
+    "line": 10,
+    "depends_on": [],
+    "defined_in": "src\\cli\\context.ts"
+  },
+  "src\\cli\\context.ts:piDir": {
+    "name": "piDir",
+    "type": "variable",
+    "file": "src\\cli\\context.ts",
+    "line": 16,
+    "depends_on": [],
+    "defined_in": "src\\cli\\context.ts"
+  },
+  "src\\cli\\context.ts:memories": {
+    "name": "memories",
+    "type": "variable",
+    "file": "src\\cli\\context.ts",
+    "line": 23,
+    "depends_on": [],
+    "defined_in": "src\\cli\\context.ts"
+  },
+  "src\\cli\\context.ts:context": {
+    "name": "context",
+    "type": "variable",
+    "file": "src\\cli\\context.ts",
+    "line": 33,
+    "depends_on": [],
+    "defined_in": "src\\cli\\context.ts"
+  },
+  "src\\cli\\context.ts:parts": {
+    "name": "parts",
+    "type": "variable",
+    "file": "src\\cli\\context.ts",
+    "line": 119,
+    "depends_on": [],
+    "defined_in": "src\\cli\\context.ts"
+  },
+  "src\\cli\\context.ts:inProgress": {
+    "name": "inProgress",
+    "type": "variable",
+    "file": "src\\cli\\context.ts",
+    "line": 84,
+    "depends_on": [],
+    "defined_in": "src\\cli\\context.ts"
+  },
+  "src\\cli\\index.ts:CLIOptions": {
+    "name": "CLIOptions",
+    "type": "interface",
+    "file": "src\\cli\\index.ts",
+    "line": 11,
+    "depends_on": [],
+    "defined_in": "src\\cli\\index.ts"
+  },
+  "src\\cli\\index.ts:args": {
+    "name": "args",
+    "type": "variable",
+    "file": "src\\cli\\index.ts",
+    "line": 23,
+    "depends_on": [],
+    "defined_in": "src\\cli\\index.ts"
+  },
+  "src\\cli\\index.ts:command": {
+    "name": "command",
+    "type": "variable",
+    "file": "src\\cli\\index.ts",
+    "line": 24,
+    "depends_on": [],
+    "defined_in": "src\\cli\\index.ts"
+  },
+  "src\\cli\\index.ts:projectRoot": {
+    "name": "projectRoot",
+    "type": "variable",
+    "file": "src\\cli\\index.ts",
+    "line": 25,
+    "depends_on": [],
+    "defined_in": "src\\cli\\index.ts"
+  },
+  "src\\cli\\index.ts:options": {
+    "name": "options",
+    "type": "variable",
+    "file": "src\\cli\\index.ts",
+    "line": 27,
+    "depends_on": [],
+    "defined_in": "src\\cli\\index.ts"
+  },
+  "src\\cli\\index.ts:init": {
+    "name": "init",
+    "type": "variable",
+    "file": "src\\cli\\index.ts",
+    "line": 80,
+    "depends_on": [],
+    "defined_in": "src\\cli\\index.ts"
+  },
+  "src\\cli\\index.ts:result": {
+    "name": "result",
+    "type": "variable",
+    "file": "src\\cli\\index.ts",
+    "line": 138,
+    "depends_on": [],
+    "defined_in": "src\\cli\\index.ts"
+  },
+  "src\\cli\\index.ts:context": {
+    "name": "context",
+    "type": "variable",
+    "file": "src\\cli\\index.ts",
+    "line": 94,
+    "depends_on": [],
+    "defined_in": "src\\cli\\index.ts"
+  },
+  "src\\cli\\index.ts:summarize": {
+    "name": "summarize",
+    "type": "variable",
+    "file": "src\\cli\\index.ts",
+    "line": 105,
+    "depends_on": [],
+    "defined_in": "src\\cli\\index.ts"
+  },
+  "src\\cli\\index.ts:memory": {
+    "name": "memory",
+    "type": "variable",
+    "file": "src\\cli\\index.ts",
+    "line": 116,
+    "depends_on": [],
+    "defined_in": "src\\cli\\index.ts"
+  },
+  "src\\cli\\index.ts:status": {
+    "name": "status",
+    "type": "variable",
+    "file": "src\\cli\\index.ts",
+    "line": 127,
+    "depends_on": [],
+    "defined_in": "src\\cli\\index.ts"
+  },
+  "src\\cli\\index.ts:sync": {
+    "name": "sync",
+    "type": "variable",
+    "file": "src\\cli\\index.ts",
+    "line": 137,
+    "depends_on": [],
+    "defined_in": "src\\cli\\index.ts"
+  },
+  "src\\cli\\index.ts:action": {
+    "name": "action",
+    "type": "variable",
+    "file": "src\\cli\\index.ts",
+    "line": 150,
+    "depends_on": [],
+    "defined_in": "src\\cli\\index.ts"
+  },
+  "src\\cli\\index.ts:extension": {
+    "name": "extension",
+    "type": "variable",
+    "file": "src\\cli\\index.ts",
+    "line": 151,
+    "depends_on": [],
+    "defined_in": "src\\cli\\index.ts"
+  },
+  "src\\cli\\index.ts:statusExt": {
+    "name": "statusExt",
+    "type": "variable",
+    "file": "src\\cli\\index.ts",
+    "line": 167,
+    "depends_on": [],
+    "defined_in": "src\\cli\\index.ts"
+  },
+  "src\\cli\\index.ts:index": {
+    "name": "index",
+    "type": "variable",
+    "file": "src\\cli\\index.ts",
+    "line": 212,
+    "depends_on": [],
+    "defined_in": "src\\cli\\index.ts"
+  },
+  "src\\cli\\index.ts:next": {
+    "name": "next",
+    "type": "variable",
+    "file": "src\\cli\\index.ts",
+    "line": 214,
+    "depends_on": [],
+    "defined_in": "src\\cli\\index.ts"
+  },
+  "src\\cli\\index.ts:scopeValue": {
+    "name": "scopeValue",
+    "type": "variable",
+    "file": "src\\cli\\index.ts",
+    "line": 220,
+    "depends_on": [],
+    "defined_in": "src\\cli\\index.ts"
+  },
+  "src\\cli\\index.ts:main": {
+    "name": "main",
+    "type": "function",
+    "file": "src\\cli\\index.ts",
+    "line": 22,
+    "depends_on": [],
+    "defined_in": "src\\cli\\index.ts"
+  },
+  "src\\cli\\index.ts:runInit": {
+    "name": "runInit",
+    "type": "function",
+    "file": "src\\cli\\index.ts",
+    "line": 79,
+    "depends_on": [],
+    "defined_in": "src\\cli\\index.ts"
+  },
+  "src\\cli\\index.ts:runContext": {
+    "name": "runContext",
+    "type": "function",
+    "file": "src\\cli\\index.ts",
+    "line": 93,
+    "depends_on": [],
+    "defined_in": "src\\cli\\index.ts"
+  },
+  "src\\cli\\index.ts:runSummarize": {
+    "name": "runSummarize",
+    "type": "function",
+    "file": "src\\cli\\index.ts",
+    "line": 104,
+    "depends_on": [],
+    "defined_in": "src\\cli\\index.ts"
+  },
+  "src\\cli\\index.ts:runMemory": {
+    "name": "runMemory",
+    "type": "function",
+    "file": "src\\cli\\index.ts",
+    "line": 115,
+    "depends_on": [],
+    "defined_in": "src\\cli\\index.ts"
+  },
+  "src\\cli\\index.ts:runStatus": {
+    "name": "runStatus",
+    "type": "function",
+    "file": "src\\cli\\index.ts",
+    "line": 126,
+    "depends_on": [],
+    "defined_in": "src\\cli\\index.ts"
+  },
+  "src\\cli\\index.ts:runSync": {
+    "name": "runSync",
+    "type": "function",
+    "file": "src\\cli\\index.ts",
+    "line": 136,
+    "depends_on": [],
+    "defined_in": "src\\cli\\index.ts"
+  },
+  "src\\cli\\index.ts:runAgent": {
+    "name": "runAgent",
+    "type": "function",
+    "file": "src\\cli\\index.ts",
+    "line": 147,
+    "depends_on": [],
+    "defined_in": "src\\cli\\index.ts"
+  },
+  "src\\cli\\index.ts:getOption": {
+    "name": "getOption",
+    "type": "function",
+    "file": "src\\cli\\index.ts",
+    "line": 211,
+    "depends_on": [],
+    "defined_in": "src\\cli\\index.ts"
+  },
+  "src\\cli\\index.ts:getScopeOption": {
+    "name": "getScopeOption",
+    "type": "function",
+    "file": "src\\cli\\index.ts",
+    "line": 219,
+    "depends_on": [],
+    "defined_in": "src\\cli\\index.ts"
+  },
+  "src\\cli\\index.ts:showHelp": {
+    "name": "showHelp",
+    "type": "function",
+    "file": "src\\cli\\index.ts",
+    "line": 227,
+    "depends_on": [],
+    "defined_in": "src\\cli\\index.ts"
+  },
+  "src\\cli\\init.ts:InitOptions": {
+    "name": "InitOptions",
+    "type": "interface",
+    "file": "src\\cli\\init.ts",
+    "line": 4,
+    "depends_on": [],
+    "defined_in": "src\\cli\\init.ts"
+  },
+  "src\\cli\\init.ts:DirectoryTemplate": {
+    "name": "DirectoryTemplate",
+    "type": "interface",
+    "file": "src\\cli\\init.ts",
+    "line": 9,
+    "depends_on": [],
+    "defined_in": "src\\cli\\init.ts"
+  },
+  "src\\cli\\init.ts:TEMPLATE": {
+    "name": "TEMPLATE",
+    "type": "variable",
+    "file": "src\\cli\\init.ts",
+    "line": 13,
+    "depends_on": [],
+    "defined_in": "src\\cli\\init.ts"
+  },
+  "src\\cli\\init.ts:InitCommand": {
+    "name": "InitCommand",
+    "type": "class",
+    "file": "src\\cli\\init.ts",
+    "line": 124,
+    "depends_on": [],
+    "defined_in": "src\\cli\\init.ts"
+  },
+  "src\\cli\\init.ts:created": {
+    "name": "created",
+    "type": "variable",
+    "file": "src\\cli\\init.ts",
+    "line": 134,
+    "depends_on": [],
+    "defined_in": "src\\cli\\init.ts"
+  },
+  "src\\cli\\init.ts:skipped": {
+    "name": "skipped",
+    "type": "variable",
+    "file": "src\\cli\\init.ts",
+    "line": 135,
+    "depends_on": [],
+    "defined_in": "src\\cli\\init.ts"
+  },
+  "src\\cli\\init.ts:targetPath": {
+    "name": "targetPath",
+    "type": "variable",
+    "file": "src\\cli\\init.ts",
+    "line": 155,
+    "depends_on": [],
+    "defined_in": "src\\cli\\init.ts"
+  },
+  "src\\cli\\init.ts:parentDir": {
+    "name": "parentDir",
+    "type": "variable",
+    "file": "src\\cli\\init.ts",
+    "line": 163,
+    "depends_on": [],
+    "defined_in": "src\\cli\\init.ts"
+  },
+  "src\\cli\\memory.ts:MemoryOptions": {
+    "name": "MemoryOptions",
+    "type": "interface",
+    "file": "src\\cli\\memory.ts",
+    "line": 4,
+    "depends_on": [],
+    "defined_in": "src\\cli\\memory.ts"
+  },
+  "src\\cli\\memory.ts:BeliefsData": {
+    "name": "BeliefsData",
+    "type": "interface",
+    "file": "src\\cli\\memory.ts",
+    "line": 10,
+    "depends_on": [],
+    "defined_in": "src\\cli\\memory.ts"
+  },
+  "src\\cli\\memory.ts:EntitiesData": {
+    "name": "EntitiesData",
+    "type": "interface",
+    "file": "src\\cli\\memory.ts",
+    "line": 11,
+    "depends_on": [],
+    "defined_in": "src\\cli\\memory.ts"
+  },
+  "src\\cli\\memory.ts:AssumptionsData": {
+    "name": "AssumptionsData",
+    "type": "interface",
+    "file": "src\\cli\\memory.ts",
+    "line": 12,
+    "depends_on": [],
+    "defined_in": "src\\cli\\memory.ts"
+  },
+  "src\\cli\\memory.ts:EventData": {
+    "name": "EventData",
+    "type": "interface",
+    "file": "src\\cli\\memory.ts",
+    "line": 13,
+    "depends_on": [],
+    "defined_in": "src\\cli\\memory.ts"
+  },
+  "src\\cli\\memory.ts:MemoryCommand": {
+    "name": "MemoryCommand",
+    "type": "class",
+    "file": "src\\cli\\memory.ts",
+    "line": 15,
+    "depends_on": [],
+    "defined_in": "src\\cli\\memory.ts"
+  },
+  "src\\cli\\memory.ts:section": {
+    "name": "section",
+    "type": "variable",
+    "file": "src\\cli\\memory.ts",
+    "line": 25,
+    "depends_on": [],
+    "defined_in": "src\\cli\\memory.ts"
+  },
+  "src\\cli\\memory.ts:beliefsPath": {
+    "name": "beliefsPath",
+    "type": "variable",
+    "file": "src\\cli\\memory.ts",
+    "line": 55,
+    "depends_on": [],
+    "defined_in": "src\\cli\\memory.ts"
+  },
+  "src\\cli\\memory.ts:data": {
+    "name": "data",
+    "type": "variable",
+    "file": "src\\cli\\memory.ts",
+    "line": 162,
+    "depends_on": [],
+    "defined_in": "src\\cli\\memory.ts"
+  },
+  "src\\cli\\memory.ts:beliefs": {
+    "name": "beliefs",
+    "type": "variable",
+    "file": "src\\cli\\memory.ts",
+    "line": 62,
+    "depends_on": [],
+    "defined_in": "src\\cli\\memory.ts"
+  },
+  "src\\cli\\memory.ts:output": {
+    "name": "output",
+    "type": "variable",
+    "file": "src\\cli\\memory.ts",
+    "line": 195,
+    "depends_on": [],
+    "defined_in": "src\\cli\\memory.ts"
+  },
+  "src\\cli\\memory.ts:bar": {
+    "name": "bar",
+    "type": "variable",
+    "file": "src\\cli\\memory.ts",
+    "line": 70,
+    "depends_on": [],
+    "defined_in": "src\\cli\\memory.ts"
+  },
+  "src\\cli\\memory.ts:decisionsPath": {
+    "name": "decisionsPath",
+    "type": "variable",
+    "file": "src\\cli\\memory.ts",
+    "line": 78,
+    "depends_on": [],
+    "defined_in": "src\\cli\\memory.ts"
+  },
+  "src\\cli\\memory.ts:content": {
+    "name": "content",
+    "type": "variable",
+    "file": "src\\cli\\memory.ts",
+    "line": 217,
+    "depends_on": [],
+    "defined_in": "src\\cli\\memory.ts"
+  },
+  "src\\cli\\memory.ts:decisions": {
+    "name": "decisions",
+    "type": "variable",
+    "file": "src\\cli\\memory.ts",
+    "line": 232,
+    "depends_on": [],
+    "defined_in": "src\\cli\\memory.ts"
+  },
+  "src\\cli\\memory.ts:entitiesPath": {
+    "name": "entitiesPath",
+    "type": "variable",
+    "file": "src\\cli\\memory.ts",
+    "line": 94,
+    "depends_on": [],
+    "defined_in": "src\\cli\\memory.ts"
+  },
+  "src\\cli\\memory.ts:entities": {
+    "name": "entities",
+    "type": "variable",
+    "file": "src\\cli\\memory.ts",
+    "line": 101,
+    "depends_on": [],
+    "defined_in": "src\\cli\\memory.ts"
+  },
+  "src\\cli\\memory.ts:byType": {
+    "name": "byType",
+    "type": "variable",
+    "file": "src\\cli\\memory.ts",
+    "line": 142,
+    "depends_on": [],
+    "defined_in": "src\\cli\\memory.ts"
+  },
+  "src\\cli\\memory.ts:eventsPath": {
+    "name": "eventsPath",
+    "type": "variable",
+    "file": "src\\cli\\memory.ts",
+    "line": 127,
+    "depends_on": [],
+    "defined_in": "src\\cli\\memory.ts"
+  },
+  "src\\cli\\memory.ts:events": {
+    "name": "events",
+    "type": "variable",
+    "file": "src\\cli\\memory.ts",
+    "line": 133,
+    "depends_on": [],
+    "defined_in": "src\\cli\\memory.ts"
+  },
+  "src\\cli\\memory.ts:date": {
+    "name": "date",
+    "type": "variable",
+    "file": "src\\cli\\memory.ts",
+    "line": 151,
+    "depends_on": [],
+    "defined_in": "src\\cli\\memory.ts"
+  },
+  "src\\cli\\memory.ts:assumptionsPath": {
+    "name": "assumptionsPath",
+    "type": "variable",
+    "file": "src\\cli\\memory.ts",
+    "line": 161,
+    "depends_on": [],
+    "defined_in": "src\\cli\\memory.ts"
+  },
+  "src\\cli\\memory.ts:assumptions": {
+    "name": "assumptions",
+    "type": "variable",
+    "file": "src\\cli\\memory.ts",
+    "line": 168,
+    "depends_on": [],
+    "defined_in": "src\\cli\\memory.ts"
+  },
+  "src\\cli\\memory.ts:status": {
+    "name": "status",
+    "type": "variable",
+    "file": "src\\cli\\memory.ts",
+    "line": 176,
+    "depends_on": [],
+    "defined_in": "src\\cli\\memory.ts"
+  },
+  "src\\cli\\memory.ts:blocks": {
+    "name": "blocks",
+    "type": "variable",
+    "file": "src\\cli\\memory.ts",
+    "line": 233,
+    "depends_on": [],
+    "defined_in": "src\\cli\\memory.ts"
+  },
+  "src\\cli\\memory.ts:titleMatch": {
+    "name": "titleMatch",
+    "type": "variable",
+    "file": "src\\cli\\memory.ts",
+    "line": 236,
+    "depends_on": [],
+    "defined_in": "src\\cli\\memory.ts"
+  },
+  "src\\cli\\memory.ts:dateMatch": {
+    "name": "dateMatch",
+    "type": "variable",
+    "file": "src\\cli\\memory.ts",
+    "line": 238,
+    "depends_on": [],
+    "defined_in": "src\\cli\\memory.ts"
+  },
+  "src\\cli\\status.ts:StatusOptions": {
+    "name": "StatusOptions",
+    "type": "interface",
+    "file": "src\\cli\\status.ts",
+    "line": 4,
+    "depends_on": [],
+    "defined_in": "src\\cli\\status.ts"
+  },
+  "src\\cli\\status.ts:StatusData": {
+    "name": "StatusData",
+    "type": "interface",
+    "file": "src\\cli\\status.ts",
+    "line": 9,
+    "depends_on": [],
+    "defined_in": "src\\cli\\status.ts"
+  },
+  "src\\cli\\status.ts:StatusCommand": {
+    "name": "StatusCommand",
+    "type": "class",
+    "file": "src\\cli\\status.ts",
+    "line": 41,
+    "depends_on": [],
+    "defined_in": "src\\cli\\status.ts"
+  },
+  "src\\cli\\status.ts:data": {
+    "name": "data",
+    "type": "variable",
+    "file": "src\\cli\\status.ts",
+    "line": 51,
+    "depends_on": [],
+    "defined_in": "src\\cli\\status.ts"
+  },
+  "src\\cli\\status.ts:allTasks": {
+    "name": "allTasks",
+    "type": "variable",
+    "file": "src\\cli\\status.ts",
+    "line": 78,
+    "depends_on": [],
+    "defined_in": "src\\cli\\status.ts"
+  },
+  "src\\cli\\status.ts:completedCount": {
+    "name": "completedCount",
+    "type": "variable",
+    "file": "src\\cli\\status.ts",
+    "line": 79,
+    "depends_on": [],
+    "defined_in": "src\\cli\\status.ts"
+  },
+  "src\\cli\\status.ts:lines": {
+    "name": "lines",
+    "type": "variable",
+    "file": "src\\cli\\status.ts",
+    "line": 103,
+    "depends_on": [],
+    "defined_in": "src\\cli\\status.ts"
+  },
+  "src\\cli\\status.ts:divider": {
+    "name": "divider",
+    "type": "variable",
+    "file": "src\\cli\\status.ts",
+    "line": 104,
+    "depends_on": [],
+    "defined_in": "src\\cli\\status.ts"
+  },
+  "src\\cli\\status.ts:since": {
+    "name": "since",
+    "type": "variable",
+    "file": "src\\cli\\status.ts",
+    "line": 117,
+    "depends_on": [],
+    "defined_in": "src\\cli\\status.ts"
+  },
+  "src\\cli\\status.ts:inProgress": {
+    "name": "inProgress",
+    "type": "variable",
+    "file": "src\\cli\\status.ts",
+    "line": 131,
+    "depends_on": [],
+    "defined_in": "src\\cli\\status.ts"
+  },
+  "src\\cli\\status.ts:pending": {
+    "name": "pending",
+    "type": "variable",
+    "file": "src\\cli\\status.ts",
+    "line": 132,
+    "depends_on": [],
+    "defined_in": "src\\cli\\status.ts"
+  },
+  "src\\cli\\status.ts:blocked": {
+    "name": "blocked",
+    "type": "variable",
+    "file": "src\\cli\\status.ts",
+    "line": 133,
+    "depends_on": [],
+    "defined_in": "src\\cli\\status.ts"
+  },
+  "src\\cli\\status.ts:progress": {
+    "name": "progress",
+    "type": "variable",
+    "file": "src\\cli\\status.ts",
+    "line": 173,
+    "depends_on": [],
+    "defined_in": "src\\cli\\status.ts"
+  },
+  "src\\cli\\status.ts:progressBar": {
+    "name": "progressBar",
+    "type": "variable",
+    "file": "src\\cli\\status.ts",
+    "line": 176,
+    "depends_on": [],
+    "defined_in": "src\\cli\\status.ts"
+  },
+  "src\\cli\\status.ts:eventsPath": {
+    "name": "eventsPath",
+    "type": "variable",
+    "file": "src\\cli\\status.ts",
+    "line": 195,
+    "depends_on": [],
+    "defined_in": "src\\cli\\status.ts"
+  },
+  "src\\cli\\status.ts:content": {
+    "name": "content",
+    "type": "variable",
+    "file": "src\\cli\\status.ts",
+    "line": 197,
+    "depends_on": [],
+    "defined_in": "src\\cli\\status.ts"
+  },
+  "src\\cli\\status.ts:sessionsDir": {
+    "name": "sessionsDir",
+    "type": "variable",
+    "file": "src\\cli\\status.ts",
+    "line": 202,
+    "depends_on": [],
+    "defined_in": "src\\cli\\status.ts"
+  },
+  "src\\cli\\summarize.ts:SummarizeOptions": {
+    "name": "SummarizeOptions",
+    "type": "interface",
+    "file": "src\\cli\\summarize.ts",
+    "line": 6,
+    "depends_on": [],
+    "defined_in": "src\\cli\\summarize.ts"
+  },
+  "src\\cli\\summarize.ts:SummarizeCommand": {
+    "name": "SummarizeCommand",
+    "type": "class",
+    "file": "src\\cli\\summarize.ts",
+    "line": 12,
+    "depends_on": [],
+    "defined_in": "src\\cli\\summarize.ts"
+  },
+  "src\\cli\\summarize.ts:piDir": {
+    "name": "piDir",
+    "type": "variable",
+    "file": "src\\cli\\summarize.ts",
+    "line": 17,
+    "depends_on": [],
+    "defined_in": "src\\cli\\summarize.ts"
+  },
+  "src\\cli\\summarize.ts:sessionId": {
+    "name": "sessionId",
+    "type": "variable",
+    "file": "src\\cli\\summarize.ts",
+    "line": 23,
+    "depends_on": [],
+    "defined_in": "src\\cli\\summarize.ts"
+  },
+  "src\\cli\\summarize.ts:events": {
+    "name": "events",
+    "type": "variable",
+    "file": "src\\cli\\summarize.ts",
+    "line": 26,
+    "depends_on": [],
+    "defined_in": "src\\cli\\summarize.ts"
+  },
+  "src\\cli\\summarize.ts:decisions": {
+    "name": "decisions",
+    "type": "variable",
+    "file": "src\\cli\\summarize.ts",
+    "line": 29,
+    "depends_on": [],
+    "defined_in": "src\\cli\\summarize.ts"
+  },
+  "src\\cli\\summarize.ts:tasks": {
+    "name": "tasks",
+    "type": "variable",
+    "file": "src\\cli\\summarize.ts",
+    "line": 30,
+    "depends_on": [],
+    "defined_in": "src\\cli\\summarize.ts"
+  },
+  "src\\cli\\summarize.ts:entities": {
+    "name": "entities",
+    "type": "variable",
+    "file": "src\\cli\\summarize.ts",
+    "line": 31,
+    "depends_on": [],
+    "defined_in": "src\\cli\\summarize.ts"
+  },
+  "src\\cli\\summarize.ts:summary": {
+    "name": "summary",
+    "type": "variable",
+    "file": "src\\cli\\summarize.ts",
+    "line": 46,
+    "depends_on": [],
+    "defined_in": "src\\cli\\summarize.ts"
+  },
+  "src\\cli\\summarize.ts:eventsPath": {
+    "name": "eventsPath",
+    "type": "variable",
+    "file": "src\\cli\\summarize.ts",
+    "line": 63,
+    "depends_on": [],
+    "defined_in": "src\\cli\\summarize.ts"
+  },
+  "src\\cli\\summarize.ts:content": {
+    "name": "content",
+    "type": "variable",
+    "file": "src\\cli\\summarize.ts",
+    "line": 66,
+    "depends_on": [],
+    "defined_in": "src\\cli\\summarize.ts"
+  },
+  "src\\cli\\summarize.ts:lines": {
+    "name": "lines",
+    "type": "variable",
+    "file": "src\\cli\\summarize.ts",
+    "line": 67,
+    "depends_on": [],
+    "defined_in": "src\\cli\\summarize.ts"
+  },
+  "src\\cli\\summarize.ts:summaryPath": {
+    "name": "summaryPath",
+    "type": "variable",
+    "file": "src\\cli\\summarize.ts",
+    "line": 96,
+    "depends_on": [],
+    "defined_in": "src\\cli\\summarize.ts"
+  },
+  "src\\cli\\summarize.ts:updated": {
+    "name": "updated",
+    "type": "variable",
+    "file": "src\\cli\\summarize.ts",
+    "line": 97,
+    "depends_on": [],
+    "defined_in": "src\\cli\\summarize.ts"
+  },
+  "src\\cli\\sync.ts:SyncOptions": {
+    "name": "SyncOptions",
+    "type": "interface",
+    "file": "src\\cli\\sync.ts",
+    "line": 5,
+    "depends_on": [],
+    "defined_in": "src\\cli\\sync.ts"
+  },
+  "src\\cli\\sync.ts:SyncResult": {
+    "name": "SyncResult",
+    "type": "interface",
+    "file": "src\\cli\\sync.ts",
+    "line": 12,
+    "depends_on": [],
+    "defined_in": "src\\cli\\sync.ts"
+  },
+  "src\\cli\\sync.ts:SyncCommand": {
+    "name": "SyncCommand",
+    "type": "class",
+    "file": "src\\cli\\sync.ts",
+    "line": 20,
+    "depends_on": [],
+    "defined_in": "src\\cli\\sync.ts"
+  },
+  "src\\cli\\sync.ts:results": {
+    "name": "results",
+    "type": "variable",
+    "file": "src\\cli\\sync.ts",
+    "line": 32,
+    "depends_on": [],
+    "defined_in": "src\\cli\\sync.ts"
+  },
+  "src\\cli\\sync.ts:scope": {
+    "name": "scope",
+    "type": "variable",
+    "file": "src\\cli\\sync.ts",
+    "line": 40,
+    "depends_on": [],
+    "defined_in": "src\\cli\\sync.ts"
+  },
+  "src\\cli\\sync.ts:lines": {
+    "name": "lines",
+    "type": "variable",
+    "file": "src\\cli\\sync.ts",
+    "line": 71,
+    "depends_on": [],
+    "defined_in": "src\\cli\\sync.ts"
+  },
+  "src\\cli\\sync.ts:parts": {
+    "name": "parts",
+    "type": "variable",
+    "file": "src\\cli\\sync.ts",
+    "line": 93,
+    "depends_on": [],
+    "defined_in": "src\\cli\\sync.ts"
+  },
+  "src\\core\\context-engine\\index.ts:ContextEngineConfig": {
+    "name": "ContextEngineConfig",
+    "type": "interface",
+    "file": "src\\core\\context-engine\\index.ts",
+    "line": 26,
+    "depends_on": [],
+    "defined_in": "src\\core\\context-engine\\index.ts"
+  },
+  "src\\core\\context-engine\\index.ts:ContextEngine": {
+    "name": "ContextEngine",
+    "type": "class",
+    "file": "src\\core\\context-engine\\index.ts",
+    "line": 31,
+    "depends_on": [],
+    "defined_in": "src\\core\\context-engine\\index.ts"
+  },
+  "src\\core\\context-engine\\index.ts:visionPath": {
+    "name": "visionPath",
+    "type": "variable",
+    "file": "src\\core\\context-engine\\index.ts",
+    "line": 68,
+    "depends_on": [],
+    "defined_in": "src\\core\\context-engine\\index.ts"
+  },
+  "src\\core\\context-engine\\index.ts:goalsPath": {
+    "name": "goalsPath",
+    "type": "variable",
+    "file": "src\\core\\context-engine\\index.ts",
+    "line": 69,
+    "depends_on": [],
+    "defined_in": "src\\core\\context-engine\\index.ts"
+  },
+  "src\\core\\context-engine\\index.ts:constraintsPath": {
+    "name": "constraintsPath",
+    "type": "variable",
+    "file": "src\\core\\context-engine\\index.ts",
+    "line": 70,
+    "depends_on": [],
+    "defined_in": "src\\core\\context-engine\\index.ts"
+  },
+  "src\\core\\context-engine\\index.ts:eventsPath": {
+    "name": "eventsPath",
+    "type": "variable",
+    "file": "src\\core\\context-engine\\index.ts",
+    "line": 233,
+    "depends_on": [],
+    "defined_in": "src\\core\\context-engine\\index.ts"
+  },
+  "src\\core\\context-engine\\index.ts:events": {
+    "name": "events",
+    "type": "variable",
+    "file": "src\\core\\context-engine\\index.ts",
+    "line": 417,
+    "depends_on": [],
+    "defined_in": "src\\core\\context-engine\\index.ts"
+  },
+  "src\\core\\context-engine\\index.ts:sessionsDir": {
+    "name": "sessionsDir",
+    "type": "variable",
+    "file": "src\\core\\context-engine\\index.ts",
+    "line": 169,
+    "depends_on": [],
+    "defined_in": "src\\core\\context-engine\\index.ts"
+  },
+  "src\\core\\context-engine\\index.ts:sessionCount": {
+    "name": "sessionCount",
+    "type": "variable",
+    "file": "src\\core\\context-engine\\index.ts",
+    "line": 171,
+    "depends_on": [],
+    "defined_in": "src\\core\\context-engine\\index.ts"
+  },
+  "src\\core\\context-engine\\index.ts:lastSession": {
+    "name": "lastSession",
+    "type": "variable",
+    "file": "src\\core\\context-engine\\index.ts",
+    "line": 172,
+    "depends_on": [],
+    "defined_in": "src\\core\\context-engine\\index.ts"
+  },
+  "src\\core\\context-engine\\index.ts:sessions": {
+    "name": "sessions",
+    "type": "variable",
+    "file": "src\\core\\context-engine\\index.ts",
+    "line": 175,
+    "depends_on": [],
+    "defined_in": "src\\core\\context-engine\\index.ts"
+  },
+  "src\\core\\context-engine\\index.ts:allEvents": {
+    "name": "allEvents",
+    "type": "variable",
+    "file": "src\\core\\context-engine\\index.ts",
+    "line": 234,
+    "depends_on": [],
+    "defined_in": "src\\core\\context-engine\\index.ts"
+  },
+  "src\\core\\context-engine\\index.ts:content": {
+    "name": "content",
+    "type": "variable",
+    "file": "src\\core\\context-engine\\index.ts",
+    "line": 282,
+    "depends_on": [],
+    "defined_in": "src\\core\\context-engine\\index.ts"
+  },
+  "src\\core\\context-engine\\index.ts:lines": {
+    "name": "lines",
+    "type": "variable",
+    "file": "src\\core\\context-engine\\index.ts",
+    "line": 309,
+    "depends_on": [],
+    "defined_in": "src\\core\\context-engine\\index.ts"
+  },
+  "src\\core\\context-engine\\index.ts:withoutComments": {
+    "name": "withoutComments",
+    "type": "variable",
+    "file": "src\\core\\context-engine\\index.ts",
+    "line": 280,
+    "depends_on": [],
+    "defined_in": "src\\core\\context-engine\\index.ts"
+  },
+  "src\\core\\context-engine\\index.ts:decisions": {
+    "name": "decisions",
+    "type": "variable",
+    "file": "src\\core\\context-engine\\index.ts",
+    "line": 305,
+    "depends_on": [],
+    "defined_in": "src\\core\\context-engine\\index.ts"
+  },
+  "src\\core\\context-engine\\index.ts:blocks": {
+    "name": "blocks",
+    "type": "variable",
+    "file": "src\\core\\context-engine\\index.ts",
+    "line": 359,
+    "depends_on": [],
+    "defined_in": "src\\core\\context-engine\\index.ts"
+  },
+  "src\\core\\context-engine\\index.ts:titleMatch": {
+    "name": "titleMatch",
+    "type": "variable",
+    "file": "src\\core\\context-engine\\index.ts",
+    "line": 310,
+    "depends_on": [],
+    "defined_in": "src\\core\\context-engine\\index.ts"
+  },
+  "src\\core\\context-engine\\index.ts:contextMatch": {
+    "name": "contextMatch",
+    "type": "variable",
+    "file": "src\\core\\context-engine\\index.ts",
+    "line": 311,
+    "depends_on": [],
+    "defined_in": "src\\core\\context-engine\\index.ts"
+  },
+  "src\\core\\context-engine\\index.ts:patterns": {
+    "name": "patterns",
+    "type": "variable",
+    "file": "src\\core\\context-engine\\index.ts",
+    "line": 335,
+    "depends_on": [],
+    "defined_in": "src\\core\\context-engine\\index.ts"
+  },
+  "src\\core\\context-engine\\index.ts:nameMatch": {
+    "name": "nameMatch",
+    "type": "variable",
+    "file": "src\\core\\context-engine\\index.ts",
+    "line": 339,
+    "depends_on": [],
+    "defined_in": "src\\core\\context-engine\\index.ts"
+  },
+  "src\\core\\context-engine\\index.ts:interfaces": {
+    "name": "interfaces",
+    "type": "variable",
+    "file": "src\\core\\context-engine\\index.ts",
+    "line": 358,
+    "depends_on": [],
+    "defined_in": "src\\core\\context-engine\\index.ts"
+  },
+  "src\\core\\context-engine\\index.ts:moduleMatch": {
+    "name": "moduleMatch",
+    "type": "variable",
+    "file": "src\\core\\context-engine\\index.ts",
+    "line": 362,
+    "depends_on": [],
+    "defined_in": "src\\core\\context-engine\\index.ts"
+  },
+  "src\\core\\context-engine\\index.ts:hash": {
+    "name": "hash",
+    "type": "variable",
+    "file": "src\\core\\context-engine\\index.ts",
+    "line": 397,
+    "depends_on": [],
+    "defined_in": "src\\core\\context-engine\\index.ts"
+  },
+  "src\\core\\context-engine\\index.ts:queryLower": {
+    "name": "queryLower",
+    "type": "variable",
+    "file": "src\\core\\context-engine\\index.ts",
+    "line": 409,
+    "depends_on": [],
+    "defined_in": "src\\core\\context-engine\\index.ts"
+  },
+  "src\\core\\context-engine\\index.ts:keywords": {
+    "name": "keywords",
+    "type": "variable",
+    "file": "src\\core\\context-engine\\index.ts",
+    "line": 410,
+    "depends_on": [],
+    "defined_in": "src\\core\\context-engine\\index.ts"
+  },
+  "src\\core\\context-engine\\index.ts:semantic": {
+    "name": "semantic",
+    "type": "variable",
+    "file": "src\\core\\context-engine\\index.ts",
+    "line": 413,
+    "depends_on": [],
+    "defined_in": "src\\core\\context-engine\\index.ts"
+  },
+  "src\\core\\context-engine\\index.ts:relevantEntities": {
+    "name": "relevantEntities",
+    "type": "variable",
+    "file": "src\\core\\context-engine\\index.ts",
+    "line": 420,
+    "depends_on": [],
+    "defined_in": "src\\core\\context-engine\\index.ts"
+  },
+  "src\\core\\context-engine\\index.ts:searchText": {
+    "name": "searchText",
+    "type": "variable",
+    "file": "src\\core\\context-engine\\index.ts",
+    "line": 431,
+    "depends_on": [],
+    "defined_in": "src\\core\\context-engine\\index.ts"
+  },
+  "src\\core\\context-engine\\index.ts:relevantRelations": {
+    "name": "relevantRelations",
+    "type": "variable",
+    "file": "src\\core\\context-engine\\index.ts",
+    "line": 425,
+    "depends_on": [],
+    "defined_in": "src\\core\\context-engine\\index.ts"
+  },
+  "src\\core\\context-engine\\index.ts:relevantEvents": {
+    "name": "relevantEvents",
+    "type": "variable",
+    "file": "src\\core\\context-engine\\index.ts",
+    "line": 430,
+    "depends_on": [],
+    "defined_in": "src\\core\\context-engine\\index.ts"
+  },
+  "src\\core\\graph-engine\\index.ts:GraphEngineConfig": {
+    "name": "GraphEngineConfig",
+    "type": "interface",
+    "file": "src\\core\\graph-engine\\index.ts",
+    "line": 13,
+    "depends_on": [],
+    "defined_in": "src\\core\\graph-engine\\index.ts"
+  },
+  "src\\core\\graph-engine\\index.ts:ParsedSymbol": {
+    "name": "ParsedSymbol",
+    "type": "interface",
+    "file": "src\\core\\graph-engine\\index.ts",
+    "line": 19,
+    "depends_on": [],
+    "defined_in": "src\\core\\graph-engine\\index.ts"
+  },
+  "src\\core\\graph-engine\\index.ts:GraphEngine": {
+    "name": "GraphEngine",
+    "type": "class",
+    "file": "src\\core\\graph-engine\\index.ts",
+    "line": 27,
+    "depends_on": [],
+    "defined_in": "src\\core\\graph-engine\\index.ts"
+  },
+  "src\\core\\graph-engine\\index.ts:results": {
+    "name": "results",
+    "type": "variable",
+    "file": "src\\core\\graph-engine\\index.ts",
+    "line": 42,
+    "depends_on": [],
+    "defined_in": "src\\core\\graph-engine\\index.ts"
+  },
+  "src\\core\\graph-engine\\index.ts:symbols": {
+    "name": "symbols",
+    "type": "variable",
+    "file": "src\\core\\graph-engine\\index.ts",
+    "line": 232,
+    "depends_on": [],
+    "defined_in": "src\\core\\graph-engine\\index.ts"
+  },
+  "src\\core\\graph-engine\\index.ts:symbolMap": {
+    "name": "symbolMap",
+    "type": "variable",
+    "file": "src\\core\\graph-engine\\index.ts",
+    "line": 60,
+    "depends_on": [],
+    "defined_in": "src\\core\\graph-engine\\index.ts"
+  },
+  "src\\core\\graph-engine\\index.ts:graph": {
+    "name": "graph",
+    "type": "variable",
+    "file": "src\\core\\graph-engine\\index.ts",
+    "line": 365,
+    "depends_on": [],
+    "defined_in": "src\\core\\graph-engine\\index.ts"
+  },
+  "src\\core\\graph-engine\\index.ts:graphPath": {
+    "name": "graphPath",
+    "type": "variable",
+    "file": "src\\core\\graph-engine\\index.ts",
+    "line": 370,
+    "depends_on": [],
+    "defined_in": "src\\core\\graph-engine\\index.ts"
+  },
+  "src\\core\\graph-engine\\index.ts:sourceFiles": {
+    "name": "sourceFiles",
+    "type": "variable",
+    "file": "src\\core\\graph-engine\\index.ts",
+    "line": 88,
+    "depends_on": [],
+    "defined_in": "src\\core\\graph-engine\\index.ts"
+  },
+  "src\\core\\graph-engine\\index.ts:ext": {
+    "name": "ext",
+    "type": "variable",
+    "file": "src\\core\\graph-engine\\index.ts",
+    "line": 92,
+    "depends_on": [],
+    "defined_in": "src\\core\\graph-engine\\index.ts"
+  },
+  "src\\core\\graph-engine\\index.ts:fileSymbols": {
+    "name": "fileSymbols",
+    "type": "variable",
+    "file": "src\\core\\graph-engine\\index.ts",
+    "line": 98,
+    "depends_on": [],
+    "defined_in": "src\\core\\graph-engine\\index.ts"
+  },
+  "src\\core\\graph-engine\\index.ts:files": {
+    "name": "files",
+    "type": "variable",
+    "file": "src\\core\\graph-engine\\index.ts",
+    "line": 355,
+    "depends_on": [],
+    "defined_in": "src\\core\\graph-engine\\index.ts"
+  },
+  "src\\core\\graph-engine\\index.ts:walk": {
+    "name": "walk",
+    "type": "function",
+    "file": "src\\core\\graph-engine\\index.ts",
+    "line": 120,
+    "depends_on": [],
+    "defined_in": "src\\core\\graph-engine\\index.ts"
+  },
+  "src\\core\\graph-engine\\index.ts:entries": {
+    "name": "entries",
+    "type": "variable",
+    "file": "src\\core\\graph-engine\\index.ts",
+    "line": 122,
+    "depends_on": [],
+    "defined_in": "src\\core\\graph-engine\\index.ts"
+  },
+  "src\\core\\graph-engine\\index.ts:fullPath": {
+    "name": "fullPath",
+    "type": "variable",
+    "file": "src\\core\\graph-engine\\index.ts",
+    "line": 383,
+    "depends_on": [],
+    "defined_in": "src\\core\\graph-engine\\index.ts"
+  },
+  "src\\core\\graph-engine\\index.ts:content": {
+    "name": "content",
+    "type": "variable",
+    "file": "src\\core\\graph-engine\\index.ts",
+    "line": 384,
+    "depends_on": [],
+    "defined_in": "src\\core\\graph-engine\\index.ts"
+  },
+  "src\\core\\graph-engine\\index.ts:lines": {
+    "name": "lines",
+    "type": "variable",
+    "file": "src\\core\\graph-engine\\index.ts",
+    "line": 237,
+    "depends_on": [],
+    "defined_in": "src\\core\\graph-engine\\index.ts"
+  },
+  "src\\core\\graph-engine\\index.ts:line": {
+    "name": "line",
+    "type": "variable",
+    "file": "src\\core\\graph-engine\\index.ts",
+    "line": 240,
+    "depends_on": [],
+    "defined_in": "src\\core\\graph-engine\\index.ts"
+  },
+  "src\\core\\graph-engine\\index.ts:lineNum": {
+    "name": "lineNum",
+    "type": "variable",
+    "file": "src\\core\\graph-engine\\index.ts",
+    "line": 156,
+    "depends_on": [],
+    "defined_in": "src\\core\\graph-engine\\index.ts"
+  },
+  "src\\core\\graph-engine\\index.ts:classMatch": {
+    "name": "classMatch",
+    "type": "variable",
+    "file": "src\\core\\graph-engine\\index.ts",
+    "line": 243,
+    "depends_on": [],
+    "defined_in": "src\\core\\graph-engine\\index.ts"
+  },
+  "src\\core\\graph-engine\\index.ts:interfaceMatch": {
+    "name": "interfaceMatch",
+    "type": "variable",
+    "file": "src\\core\\graph-engine\\index.ts",
+    "line": 171,
+    "depends_on": [],
+    "defined_in": "src\\core\\graph-engine\\index.ts"
+  },
+  "src\\core\\graph-engine\\index.ts:typeMatch": {
+    "name": "typeMatch",
+    "type": "variable",
+    "file": "src\\core\\graph-engine\\index.ts",
+    "line": 267,
+    "depends_on": [],
+    "defined_in": "src\\core\\graph-engine\\index.ts"
+  },
+  "src\\core\\graph-engine\\index.ts:varMatch": {
+    "name": "varMatch",
+    "type": "variable",
+    "file": "src\\core\\graph-engine\\index.ts",
+    "line": 195,
+    "depends_on": [],
+    "defined_in": "src\\core\\graph-engine\\index.ts"
+  },
+  "src\\core\\graph-engine\\index.ts:funcRegex": {
+    "name": "funcRegex",
+    "type": "variable",
+    "file": "src\\core\\graph-engine\\index.ts",
+    "line": 208,
+    "depends_on": [],
+    "defined_in": "src\\core\\graph-engine\\index.ts"
+  },
+  "src\\core\\graph-engine\\index.ts:match": {
+    "name": "match",
+    "type": "variable",
+    "file": "src\\core\\graph-engine\\index.ts",
+    "line": 388,
+    "depends_on": [],
+    "defined_in": "src\\core\\graph-engine\\index.ts"
+  },
+  "src\\core\\graph-engine\\index.ts:name": {
+    "name": "name",
+    "type": "variable",
+    "file": "src\\core\\graph-engine\\index.ts",
+    "line": 211,
+    "depends_on": [],
+    "defined_in": "src\\core\\graph-engine\\index.ts"
+  },
+  "src\\core\\graph-engine\\index.ts:funcMatch": {
+    "name": "funcMatch",
+    "type": "variable",
+    "file": "src\\core\\graph-engine\\index.ts",
+    "line": 255,
+    "depends_on": [],
+    "defined_in": "src\\core\\graph-engine\\index.ts"
+  },
+  "src\\core\\graph-engine\\index.ts:packageJsonPath": {
+    "name": "packageJsonPath",
+    "type": "variable",
+    "file": "src\\core\\graph-engine\\index.ts",
+    "line": 289,
+    "depends_on": [],
+    "defined_in": "src\\core\\graph-engine\\index.ts"
+  },
+  "src\\core\\graph-engine\\index.ts:packageJson": {
+    "name": "packageJson",
+    "type": "variable",
+    "file": "src\\core\\graph-engine\\index.ts",
+    "line": 296,
+    "depends_on": [],
+    "defined_in": "src\\core\\graph-engine\\index.ts"
+  },
+  "src\\core\\graph-engine\\index.ts:packages": {
+    "name": "packages",
+    "type": "variable",
+    "file": "src\\core\\graph-engine\\index.ts",
+    "line": 297,
+    "depends_on": [],
+    "defined_in": "src\\core\\graph-engine\\index.ts"
+  },
+  "src\\core\\graph-engine\\index.ts:nodeModulesPath": {
+    "name": "nodeModulesPath",
+    "type": "variable",
+    "file": "src\\core\\graph-engine\\index.ts",
+    "line": 308,
+    "depends_on": [],
+    "defined_in": "src\\core\\graph-engine\\index.ts"
+  },
+  "src\\core\\graph-engine\\index.ts:depPackagePath": {
+    "name": "depPackagePath",
+    "type": "variable",
+    "file": "src\\core\\graph-engine\\index.ts",
+    "line": 311,
+    "depends_on": [],
+    "defined_in": "src\\core\\graph-engine\\index.ts"
+  },
+  "src\\core\\graph-engine\\index.ts:depPackage": {
+    "name": "depPackage",
+    "type": "variable",
+    "file": "src\\core\\graph-engine\\index.ts",
+    "line": 314,
+    "depends_on": [],
+    "defined_in": "src\\core\\graph-engine\\index.ts"
+  },
+  "src\\core\\graph-engine\\index.ts:edges": {
+    "name": "edges",
+    "type": "variable",
+    "file": "src\\core\\graph-engine\\index.ts",
+    "line": 356,
+    "depends_on": [],
+    "defined_in": "src\\core\\graph-engine\\index.ts"
+  },
+  "src\\core\\graph-engine\\index.ts:imports": {
+    "name": "imports",
+    "type": "variable",
+    "file": "src\\core\\graph-engine\\index.ts",
+    "line": 380,
+    "depends_on": [],
+    "defined_in": "src\\core\\graph-engine\\index.ts"
+  },
+  "src\\core\\graph-engine\\index.ts:importRegex": {
+    "name": "importRegex",
+    "type": "variable",
+    "file": "src\\core\\graph-engine\\index.ts",
+    "line": 387,
+    "depends_on": [],
+    "defined_in": "src\\core\\graph-engine\\index.ts"
+  },
+  "src\\core\\graph-engine\\index.ts:requireRegex": {
+    "name": "requireRegex",
+    "type": "variable",
+    "file": "src\\core\\graph-engine\\index.ts",
+    "line": 394,
+    "depends_on": [],
+    "defined_in": "src\\core\\graph-engine\\index.ts"
+  },
+  "src\\core\\graph-engine\\index.ts:pyImportRegex": {
+    "name": "pyImportRegex",
+    "type": "variable",
+    "file": "src\\core\\graph-engine\\index.ts",
+    "line": 400,
+    "depends_on": [],
+    "defined_in": "src\\core\\graph-engine\\index.ts"
+  },
+  "src\\core\\graph-engine\\index.ts:module": {
+    "name": "module",
+    "type": "variable",
+    "file": "src\\core\\graph-engine\\index.ts",
+    "line": 402,
+    "depends_on": [],
+    "defined_in": "src\\core\\graph-engine\\index.ts"
+  },
+  "src\\core\\graph-engine\\index.ts:fileGraphPath": {
+    "name": "fileGraphPath",
+    "type": "variable",
+    "file": "src\\core\\graph-engine\\index.ts",
+    "line": 422,
+    "depends_on": [],
+    "defined_in": "src\\core\\graph-engine\\index.ts"
+  },
+  "src\\core\\graph-engine\\index.ts:symbolGraphPath": {
+    "name": "symbolGraphPath",
+    "type": "variable",
+    "file": "src\\core\\graph-engine\\index.ts",
+    "line": 423,
+    "depends_on": [],
+    "defined_in": "src\\core\\graph-engine\\index.ts"
+  },
+  "src\\core\\graph-engine\\index.ts:fileGraph": {
+    "name": "fileGraph",
+    "type": "variable",
+    "file": "src\\core\\graph-engine\\index.ts",
+    "line": 425,
+    "depends_on": [],
+    "defined_in": "src\\core\\graph-engine\\index.ts"
+  },
+  "src\\core\\graph-engine\\index.ts:symbolGraph": {
+    "name": "symbolGraph",
+    "type": "variable",
+    "file": "src\\core\\graph-engine\\index.ts",
+    "line": 428,
+    "depends_on": [],
+    "defined_in": "src\\core\\graph-engine\\index.ts"
+  },
+  "src\\core\\graph-engine\\index.ts:relatedFiles": {
+    "name": "relatedFiles",
+    "type": "variable",
+    "file": "src\\core\\graph-engine\\index.ts",
+    "line": 432,
+    "depends_on": [],
+    "defined_in": "src\\core\\graph-engine\\index.ts"
+  },
+  "src\\core\\graph-engine\\index.ts:relatedSymbols": {
+    "name": "relatedSymbols",
+    "type": "variable",
+    "file": "src\\core\\graph-engine\\index.ts",
+    "line": 433,
+    "depends_on": [],
+    "defined_in": "src\\core\\graph-engine\\index.ts"
+  },
+  "src\\core\\graph-engine\\index.ts:dependencies": {
+    "name": "dependencies",
+    "type": "variable",
+    "file": "src\\core\\graph-engine\\index.ts",
+    "line": 434,
+    "depends_on": [],
+    "defined_in": "src\\core\\graph-engine\\index.ts"
+  },
+  "src\\core\\memory-engine\\index.ts:MemoryEngineConfig": {
+    "name": "MemoryEngineConfig",
+    "type": "interface",
+    "file": "src\\core\\memory-engine\\index.ts",
+    "line": 15,
+    "depends_on": [],
+    "defined_in": "src\\core\\memory-engine\\index.ts"
+  },
+  "src\\core\\memory-engine\\index.ts:MemoryEngine": {
+    "name": "MemoryEngine",
+    "type": "class",
+    "file": "src\\core\\memory-engine\\index.ts",
+    "line": 22,
+    "depends_on": [],
+    "defined_in": "src\\core\\memory-engine\\index.ts"
+  },
+  "src\\core\\memory-engine\\index.ts:results": {
+    "name": "results",
+    "type": "variable",
+    "file": "src\\core\\memory-engine\\index.ts",
+    "line": 45,
+    "depends_on": [],
+    "defined_in": "src\\core\\memory-engine\\index.ts"
+  },
+  "src\\core\\memory-engine\\index.ts:added": {
+    "name": "added",
+    "type": "variable",
+    "file": "src\\core\\memory-engine\\index.ts",
+    "line": 77,
+    "depends_on": [],
+    "defined_in": "src\\core\\memory-engine\\index.ts"
+  },
+  "src\\core\\memory-engine\\index.ts:updated": {
+    "name": "updated",
+    "type": "variable",
+    "file": "src\\core\\memory-engine\\index.ts",
+    "line": 136,
+    "depends_on": [],
+    "defined_in": "src\\core\\memory-engine\\index.ts"
+  },
+  "src\\core\\memory-engine\\index.ts:decisionsPath": {
+    "name": "decisionsPath",
+    "type": "variable",
+    "file": "src\\core\\memory-engine\\index.ts",
+    "line": 352,
+    "depends_on": [],
+    "defined_in": "src\\core\\memory-engine\\index.ts"
+  },
+  "src\\core\\memory-engine\\index.ts:existingContent": {
+    "name": "existingContent",
+    "type": "variable",
+    "file": "src\\core\\memory-engine\\index.ts",
+    "line": 92,
+    "depends_on": [],
+    "defined_in": "src\\core\\memory-engine\\index.ts"
+  },
+  "src\\core\\memory-engine\\index.ts:decisions": {
+    "name": "decisions",
+    "type": "variable",
+    "file": "src\\core\\memory-engine\\index.ts",
+    "line": 96,
+    "depends_on": [],
+    "defined_in": "src\\core\\memory-engine\\index.ts"
+  },
+  "src\\core\\memory-engine\\index.ts:timestamp": {
+    "name": "timestamp",
+    "type": "variable",
+    "file": "src\\core\\memory-engine\\index.ts",
+    "line": 98,
+    "depends_on": [],
+    "defined_in": "src\\core\\memory-engine\\index.ts"
+  },
+  "src\\core\\memory-engine\\index.ts:newContent": {
+    "name": "newContent",
+    "type": "variable",
+    "file": "src\\core\\memory-engine\\index.ts",
+    "line": 111,
+    "depends_on": [],
+    "defined_in": "src\\core\\memory-engine\\index.ts"
+  },
+  "src\\core\\memory-engine\\index.ts:entitiesPath": {
+    "name": "entitiesPath",
+    "type": "variable",
+    "file": "src\\core\\memory-engine\\index.ts",
+    "line": 121,
+    "depends_on": [],
+    "defined_in": "src\\core\\memory-engine\\index.ts"
+  },
+  "src\\core\\memory-engine\\index.ts:existing": {
+    "name": "existing",
+    "type": "variable",
+    "file": "src\\core\\memory-engine\\index.ts",
+    "line": 310,
+    "depends_on": [],
+    "defined_in": "src\\core\\memory-engine\\index.ts"
+  },
+  "src\\core\\memory-engine\\index.ts:newEntities": {
+    "name": "newEntities",
+    "type": "variable",
+    "file": "src\\core\\memory-engine\\index.ts",
+    "line": 124,
+    "depends_on": [],
+    "defined_in": "src\\core\\memory-engine\\index.ts"
+  },
+  "src\\core\\memory-engine\\index.ts:tasksPath": {
+    "name": "tasksPath",
+    "type": "variable",
+    "file": "src\\core\\memory-engine\\index.ts",
+    "line": 353,
+    "depends_on": [],
+    "defined_in": "src\\core\\memory-engine\\index.ts"
+  },
+  "src\\core\\memory-engine\\index.ts:updatedCount": {
+    "name": "updatedCount",
+    "type": "variable",
+    "file": "src\\core\\memory-engine\\index.ts",
+    "line": 152,
+    "depends_on": [],
+    "defined_in": "src\\core\\memory-engine\\index.ts"
+  },
+  "src\\core\\memory-engine\\index.ts:existingTask": {
+    "name": "existingTask",
+    "type": "variable",
+    "file": "src\\core\\memory-engine\\index.ts",
+    "line": 155,
+    "depends_on": [],
+    "defined_in": "src\\core\\memory-engine\\index.ts"
+  },
+  "src\\core\\memory-engine\\index.ts:assumptionsPath": {
+    "name": "assumptionsPath",
+    "type": "variable",
+    "file": "src\\core\\memory-engine\\index.ts",
+    "line": 189,
+    "depends_on": [],
+    "defined_in": "src\\core\\memory-engine\\index.ts"
+  },
+  "src\\core\\memory-engine\\index.ts:newAssumptions": {
+    "name": "newAssumptions",
+    "type": "variable",
+    "file": "src\\core\\memory-engine\\index.ts",
+    "line": 195,
+    "depends_on": [],
+    "defined_in": "src\\core\\memory-engine\\index.ts"
+  },
+  "src\\core\\memory-engine\\index.ts:eventsPath": {
+    "name": "eventsPath",
+    "type": "variable",
+    "file": "src\\core\\memory-engine\\index.ts",
+    "line": 340,
+    "depends_on": [],
+    "defined_in": "src\\core\\memory-engine\\index.ts"
+  },
+  "src\\core\\memory-engine\\index.ts:eventRecords": {
+    "name": "eventRecords",
+    "type": "variable",
+    "file": "src\\core\\memory-engine\\index.ts",
+    "line": 215,
+    "depends_on": [],
+    "defined_in": "src\\core\\memory-engine\\index.ts"
+  },
+  "src\\core\\memory-engine\\index.ts:lines": {
+    "name": "lines",
+    "type": "variable",
+    "file": "src\\core\\memory-engine\\index.ts",
+    "line": 224,
+    "depends_on": [],
+    "defined_in": "src\\core\\memory-engine\\index.ts"
+  },
+  "src\\core\\memory-engine\\index.ts:events": {
+    "name": "events",
+    "type": "variable",
+    "file": "src\\core\\memory-engine\\index.ts",
+    "line": 341,
+    "depends_on": [],
+    "defined_in": "src\\core\\memory-engine\\index.ts"
+  },
+  "src\\core\\memory-engine\\index.ts:trimmed": {
+    "name": "trimmed",
+    "type": "variable",
+    "file": "src\\core\\memory-engine\\index.ts",
+    "line": 239,
+    "depends_on": [],
+    "defined_in": "src\\core\\memory-engine\\index.ts"
+  },
+  "src\\core\\memory-engine\\index.ts:content": {
+    "name": "content",
+    "type": "variable",
+    "file": "src\\core\\memory-engine\\index.ts",
+    "line": 273,
+    "depends_on": [],
+    "defined_in": "src\\core\\memory-engine\\index.ts"
+  },
+  "src\\core\\memory-engine\\index.ts:blocks": {
+    "name": "blocks",
+    "type": "variable",
+    "file": "src\\core\\memory-engine\\index.ts",
+    "line": 248,
+    "depends_on": [],
+    "defined_in": "src\\core\\memory-engine\\index.ts"
+  },
+  "src\\core\\memory-engine\\index.ts:keep": {
+    "name": "keep",
+    "type": "variable",
+    "file": "src\\core\\memory-engine\\index.ts",
+    "line": 250,
+    "depends_on": [],
+    "defined_in": "src\\core\\memory-engine\\index.ts"
+  },
+  "src\\core\\memory-engine\\index.ts:hash": {
+    "name": "hash",
+    "type": "variable",
+    "file": "src\\core\\memory-engine\\index.ts",
+    "line": 291,
+    "depends_on": [],
+    "defined_in": "src\\core\\memory-engine\\index.ts"
+  },
+  "src\\core\\memory-engine\\index.ts:beliefsPath": {
+    "name": "beliefsPath",
+    "type": "variable",
+    "file": "src\\core\\memory-engine\\index.ts",
+    "line": 355,
+    "depends_on": [],
+    "defined_in": "src\\core\\memory-engine\\index.ts"
+  },
+  "src\\core\\memory-engine\\index.ts:existingBelief": {
+    "name": "existingBelief",
+    "type": "variable",
+    "file": "src\\core\\memory-engine\\index.ts",
+    "line": 316,
+    "depends_on": [],
+    "defined_in": "src\\core\\memory-engine\\index.ts"
+  },
+  "src\\core\\memory-engine\\index.ts:summaryParts": {
+    "name": "summaryParts",
+    "type": "variable",
+    "file": "src\\core\\memory-engine\\index.ts",
+    "line": 349,
+    "depends_on": [],
+    "defined_in": "src\\core\\memory-engine\\index.ts"
+  },
+  "src\\core\\memory-engine\\index.ts:questionsPath": {
+    "name": "questionsPath",
+    "type": "variable",
+    "file": "src\\core\\memory-engine\\index.ts",
+    "line": 354,
+    "depends_on": [],
+    "defined_in": "src\\core\\memory-engine\\index.ts"
+  },
+  "src\\core\\memory-engine\\index.ts:tasks": {
+    "name": "tasks",
+    "type": "variable",
+    "file": "src\\core\\memory-engine\\index.ts",
+    "line": 360,
+    "depends_on": [],
+    "defined_in": "src\\core\\memory-engine\\index.ts"
+  },
+  "src\\core\\memory-engine\\index.ts:active": {
+    "name": "active",
+    "type": "variable",
+    "file": "src\\core\\memory-engine\\index.ts",
+    "line": 362,
+    "depends_on": [],
+    "defined_in": "src\\core\\memory-engine\\index.ts"
+  },
+  "src\\core\\memory-engine\\index.ts:pending": {
+    "name": "pending",
+    "type": "variable",
+    "file": "src\\core\\memory-engine\\index.ts",
+    "line": 363,
+    "depends_on": [],
+    "defined_in": "src\\core\\memory-engine\\index.ts"
+  },
+  "src\\core\\memory-engine\\index.ts:questions": {
+    "name": "questions",
+    "type": "variable",
+    "file": "src\\core\\memory-engine\\index.ts",
+    "line": 368,
+    "depends_on": [],
+    "defined_in": "src\\core\\memory-engine\\index.ts"
+  },
+  "src\\core\\memory-engine\\index.ts:open": {
+    "name": "open",
+    "type": "variable",
+    "file": "src\\core\\memory-engine\\index.ts",
+    "line": 370,
+    "depends_on": [],
+    "defined_in": "src\\core\\memory-engine\\index.ts"
+  },
+  "src\\core\\memory-engine\\index.ts:beliefs": {
+    "name": "beliefs",
+    "type": "variable",
+    "file": "src\\core\\memory-engine\\index.ts",
+    "line": 375,
+    "depends_on": [],
+    "defined_in": "src\\core\\memory-engine\\index.ts"
+  },
+  "src\\core\\memory-engine\\index.ts:highConfidence": {
+    "name": "highConfidence",
+    "type": "variable",
+    "file": "src\\core\\memory-engine\\index.ts",
+    "line": 377,
+    "depends_on": [],
+    "defined_in": "src\\core\\memory-engine\\index.ts"
+  },
+  "src\\core\\types.ts:RuntimeContext": {
+    "name": "RuntimeContext",
+    "type": "interface",
+    "file": "src\\core\\types.ts",
+    "line": 3,
+    "depends_on": [],
+    "defined_in": "src\\core\\types.ts"
+  },
+  "src\\core\\types.ts:IdentityContext": {
+    "name": "IdentityContext",
+    "type": "interface",
+    "file": "src\\core\\types.ts",
+    "line": 12,
+    "depends_on": [],
+    "defined_in": "src\\core\\types.ts"
+  },
+  "src\\core\\types.ts:ArchitectureContext": {
+    "name": "ArchitectureContext",
+    "type": "interface",
+    "file": "src\\core\\types.ts",
+    "line": 18,
+    "depends_on": [],
+    "defined_in": "src\\core\\types.ts"
+  },
+  "src\\core\\types.ts:Decision": {
+    "name": "Decision",
+    "type": "interface",
+    "file": "src\\core\\types.ts",
+    "line": 25,
+    "depends_on": [],
+    "defined_in": "src\\core\\types.ts"
+  },
+  "src\\core\\types.ts:Pattern": {
+    "name": "Pattern",
+    "type": "interface",
+    "file": "src\\core\\types.ts",
+    "line": 37,
+    "depends_on": [],
+    "defined_in": "src\\core\\types.ts"
+  },
+  "src\\core\\types.ts:Interface": {
+    "name": "Interface",
+    "type": "interface",
+    "file": "src\\core\\types.ts",
+    "line": 45,
+    "depends_on": [],
+    "defined_in": "src\\core\\types.ts"
+  },
+  "src\\core\\types.ts:StateContext": {
+    "name": "StateContext",
+    "type": "interface",
+    "file": "src\\core\\types.ts",
+    "line": 53,
+    "depends_on": [],
+    "defined_in": "src\\core\\types.ts"
+  },
+  "src\\core\\types.ts:CurrentFocus": {
+    "name": "CurrentFocus",
+    "type": "interface",
+    "file": "src\\core\\types.ts",
+    "line": 60,
+    "depends_on": [],
+    "defined_in": "src\\core\\types.ts"
+  },
+  "src\\core\\types.ts:Task": {
+    "name": "Task",
+    "type": "interface",
+    "file": "src\\core\\types.ts",
+    "line": 66,
+    "depends_on": [],
+    "defined_in": "src\\core\\types.ts"
+  },
+  "src\\core\\types.ts:Question": {
+    "name": "Question",
+    "type": "interface",
+    "file": "src\\core\\types.ts",
+    "line": 77,
+    "depends_on": [],
+    "defined_in": "src\\core\\types.ts"
+  },
+  "src\\core\\types.ts:Roadmap": {
+    "name": "Roadmap",
+    "type": "interface",
+    "file": "src\\core\\types.ts",
+    "line": 87,
+    "depends_on": [],
+    "defined_in": "src\\core\\types.ts"
+  },
+  "src\\core\\types.ts:Milestone": {
+    "name": "Milestone",
+    "type": "interface",
+    "file": "src\\core\\types.ts",
+    "line": 93,
+    "depends_on": [],
+    "defined_in": "src\\core\\types.ts"
+  },
+  "src\\core\\types.ts:MemoryContext": {
+    "name": "MemoryContext",
+    "type": "interface",
+    "file": "src\\core\\types.ts",
+    "line": 102,
+    "depends_on": [],
+    "defined_in": "src\\core\\types.ts"
+  },
+  "src\\core\\types.ts:SemanticMemory": {
+    "name": "SemanticMemory",
+    "type": "interface",
+    "file": "src\\core\\types.ts",
+    "line": 108,
+    "depends_on": [],
+    "defined_in": "src\\core\\types.ts"
+  },
+  "src\\core\\types.ts:Concept": {
+    "name": "Concept",
+    "type": "interface",
+    "file": "src\\core\\types.ts",
+    "line": 114,
+    "depends_on": [],
+    "defined_in": "src\\core\\types.ts"
+  },
+  "src\\core\\types.ts:Entity": {
+    "name": "Entity",
+    "type": "interface",
+    "file": "src\\core\\types.ts",
+    "line": 123,
+    "depends_on": [],
+    "defined_in": "src\\core\\types.ts"
+  },
+  "src\\core\\types.ts:Relation": {
+    "name": "Relation",
+    "type": "interface",
+    "file": "src\\core\\types.ts",
+    "line": 133,
+    "depends_on": [],
+    "defined_in": "src\\core\\types.ts"
+  },
+  "src\\core\\types.ts:EpisodicMemory": {
+    "name": "EpisodicMemory",
+    "type": "interface",
+    "file": "src\\core\\types.ts",
+    "line": 141,
+    "depends_on": [],
+    "defined_in": "src\\core\\types.ts"
+  },
+  "src\\core\\types.ts:EventRecord": {
+    "name": "EventRecord",
+    "type": "interface",
+    "file": "src\\core\\types.ts",
+    "line": 147,
+    "depends_on": [],
+    "defined_in": "src\\core\\types.ts"
+  },
+  "src\\core\\types.ts:ProceduralMemory": {
+    "name": "ProceduralMemory",
+    "type": "interface",
+    "file": "src\\core\\types.ts",
+    "line": 156,
+    "depends_on": [],
+    "defined_in": "src\\core\\types.ts"
+  },
+  "src\\core\\types.ts:Workflow": {
+    "name": "Workflow",
+    "type": "interface",
+    "file": "src\\core\\types.ts",
+    "line": 161,
+    "depends_on": [],
+    "defined_in": "src\\core\\types.ts"
+  },
+  "src\\core\\types.ts:CodingRule": {
+    "name": "CodingRule",
+    "type": "interface",
+    "file": "src\\core\\types.ts",
+    "line": 169,
+    "depends_on": [],
+    "defined_in": "src\\core\\types.ts"
+  },
+  "src\\core\\types.ts:GraphContext": {
+    "name": "GraphContext",
+    "type": "interface",
+    "file": "src\\core\\types.ts",
+    "line": 177,
+    "depends_on": [],
+    "defined_in": "src\\core\\types.ts"
+  },
+  "src\\core\\types.ts:SymbolGraph": {
+    "name": "SymbolGraph",
+    "type": "interface",
+    "file": "src\\core\\types.ts",
+    "line": 183,
+    "depends_on": [],
+    "defined_in": "src\\core\\types.ts"
+  },
+  "src\\core\\types.ts:SymbolNode": {
+    "name": "SymbolNode",
+    "type": "interface",
+    "file": "src\\core\\types.ts",
+    "line": 188,
+    "depends_on": [],
+    "defined_in": "src\\core\\types.ts"
+  },
+  "src\\core\\types.ts:DependencyGraph": {
+    "name": "DependencyGraph",
+    "type": "interface",
+    "file": "src\\core\\types.ts",
+    "line": 197,
+    "depends_on": [],
+    "defined_in": "src\\core\\types.ts"
+  },
+  "src\\core\\types.ts:PackageNode": {
+    "name": "PackageNode",
+    "type": "interface",
+    "file": "src\\core\\types.ts",
+    "line": 202,
+    "depends_on": [],
+    "defined_in": "src\\core\\types.ts"
+  },
+  "src\\core\\types.ts:FileGraph": {
+    "name": "FileGraph",
+    "type": "interface",
+    "file": "src\\core\\types.ts",
+    "line": 209,
+    "depends_on": [],
+    "defined_in": "src\\core\\types.ts"
+  },
+  "src\\core\\types.ts:WorldModel": {
+    "name": "WorldModel",
+    "type": "interface",
+    "file": "src\\core\\types.ts",
+    "line": 214,
+    "depends_on": [],
+    "defined_in": "src\\core\\types.ts"
+  },
+  "src\\core\\types.ts:Belief": {
+    "name": "Belief",
+    "type": "interface",
+    "file": "src\\core\\types.ts",
+    "line": 221,
+    "depends_on": [],
+    "defined_in": "src\\core\\types.ts"
+  },
+  "src\\core\\types.ts:Assumption": {
+    "name": "Assumption",
+    "type": "interface",
+    "file": "src\\core\\types.ts",
+    "line": 229,
+    "depends_on": [],
+    "defined_in": "src\\core\\types.ts"
+  },
+  "src\\core\\types.ts:ConfidenceMap": {
+    "name": "ConfidenceMap",
+    "type": "interface",
+    "file": "src\\core\\types.ts",
+    "line": 237,
+    "depends_on": [],
+    "defined_in": "src\\core\\types.ts"
+  },
+  "src\\core\\types.ts:CLIContext": {
+    "name": "CLIContext",
+    "type": "interface",
+    "file": "src\\core\\types.ts",
+    "line": 242,
+    "depends_on": [],
+    "defined_in": "src\\core\\types.ts"
+  },
+  "src\\core\\types.ts:ExtractionInput": {
+    "name": "ExtractionInput",
+    "type": "interface",
+    "file": "src\\core\\types.ts",
+    "line": 250,
+    "depends_on": [],
+    "defined_in": "src\\core\\types.ts"
+  },
+  "src\\core\\types.ts:GraphUpdate": {
+    "name": "GraphUpdate",
+    "type": "interface",
+    "file": "src\\core\\types.ts",
+    "line": 262,
+    "depends_on": [],
+    "defined_in": "src\\core\\types.ts"
+  },
+  "src\\integrations\\extension-system\\agent.ts:PI_DIR": {
+    "name": "PI_DIR",
+    "type": "variable",
+    "file": "src\\integrations\\extension-system\\agent.ts",
+    "line": 25,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\extension-system\\agent.ts"
+  },
+  "src\\integrations\\extension-system\\agent.ts:DEBOUNCE_MS": {
+    "name": "DEBOUNCE_MS",
+    "type": "variable",
+    "file": "src\\integrations\\extension-system\\agent.ts",
+    "line": 26,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\extension-system\\agent.ts"
+  },
+  "src\\integrations\\extension-system\\agent.ts:colors": {
+    "name": "colors",
+    "type": "variable",
+    "file": "src\\integrations\\extension-system\\agent.ts",
+    "line": 28,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\extension-system\\agent.ts"
+  },
+  "src\\integrations\\extension-system\\agent.ts:log": {
+    "name": "log",
+    "type": "variable",
+    "file": "src\\integrations\\extension-system\\agent.ts",
+    "line": 37,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\extension-system\\agent.ts"
+  },
+  "src\\integrations\\extension-system\\agent.ts:ExtensionConfig": {
+    "name": "ExtensionConfig",
+    "type": "interface",
+    "file": "src\\integrations\\extension-system\\agent.ts",
+    "line": 44,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\extension-system\\agent.ts"
+  },
+  "src\\integrations\\extension-system\\agent.ts:defaultConfig": {
+    "name": "defaultConfig",
+    "type": "variable",
+    "file": "src\\integrations\\extension-system\\agent.ts",
+    "line": 51,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\extension-system\\agent.ts"
+  },
+  "src\\integrations\\extension-system\\agent.ts:AgentState": {
+    "name": "AgentState",
+    "type": "interface",
+    "file": "src\\integrations\\extension-system\\agent.ts",
+    "line": 65,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\extension-system\\agent.ts"
+  },
+  "src\\integrations\\extension-system\\agent.ts:PIExtension": {
+    "name": "PIExtension",
+    "type": "class",
+    "file": "src\\integrations\\extension-system\\agent.ts",
+    "line": 73,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\extension-system\\agent.ts"
+  },
+  "src\\integrations\\extension-system\\agent.ts:paths": {
+    "name": "paths",
+    "type": "variable",
+    "file": "src\\integrations\\extension-system\\agent.ts",
+    "line": 93,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\extension-system\\agent.ts"
+  },
+  "src\\integrations\\extension-system\\agent.ts:current": {
+    "name": "current",
+    "type": "variable",
+    "file": "src\\integrations\\extension-system\\agent.ts",
+    "line": 115,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\extension-system\\agent.ts"
+  },
+  "src\\integrations\\extension-system\\agent.ts:updated": {
+    "name": "updated",
+    "type": "variable",
+    "file": "src\\integrations\\extension-system\\agent.ts",
+    "line": 122,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\extension-system\\agent.ts"
+  },
+  "src\\integrations\\extension-system\\agent.ts:state": {
+    "name": "state",
+    "type": "variable",
+    "file": "src\\integrations\\extension-system\\agent.ts",
+    "line": 405,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\extension-system\\agent.ts"
+  },
+  "src\\integrations\\extension-system\\agent.ts:now": {
+    "name": "now",
+    "type": "variable",
+    "file": "src\\integrations\\extension-system\\agent.ts",
+    "line": 212,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\extension-system\\agent.ts"
+  },
+  "src\\integrations\\extension-system\\agent.ts:extensions": {
+    "name": "extensions",
+    "type": "variable",
+    "file": "src\\integrations\\extension-system\\agent.ts",
+    "line": 230,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\extension-system\\agent.ts"
+  },
+  "src\\integrations\\extension-system\\agent.ts:ignoredDirs": {
+    "name": "ignoredDirs",
+    "type": "variable",
+    "file": "src\\integrations\\extension-system\\agent.ts",
+    "line": 231,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\extension-system\\agent.ts"
+  },
+  "src\\integrations\\extension-system\\agent.ts:debounceTimer": {
+    "name": "debounceTimer",
+    "type": "variable",
+    "file": "src\\integrations\\extension-system\\agent.ts",
+    "line": 233,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\extension-system\\agent.ts"
+  },
+  "src\\integrations\\extension-system\\agent.ts:onChange": {
+    "name": "onChange",
+    "type": "function",
+    "file": "src\\integrations\\extension-system\\agent.ts",
+    "line": 235,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\extension-system\\agent.ts"
+  },
+  "src\\integrations\\extension-system\\agent.ts:ext": {
+    "name": "ext",
+    "type": "variable",
+    "file": "src\\integrations\\extension-system\\agent.ts",
+    "line": 236,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\extension-system\\agent.ts"
+  },
+  "src\\integrations\\extension-system\\agent.ts:shouldIgnore": {
+    "name": "shouldIgnore",
+    "type": "variable",
+    "file": "src\\integrations\\extension-system\\agent.ts",
+    "line": 237,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\extension-system\\agent.ts"
+  },
+  "src\\integrations\\extension-system\\agent.ts:relativePath": {
+    "name": "relativePath",
+    "type": "variable",
+    "file": "src\\integrations\\extension-system\\agent.ts",
+    "line": 243,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\extension-system\\agent.ts"
+  },
+  "src\\integrations\\extension-system\\agent.ts:watchDir": {
+    "name": "watchDir",
+    "type": "function",
+    "file": "src\\integrations\\extension-system\\agent.ts",
+    "line": 250,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\extension-system\\agent.ts"
+  },
+  "src\\integrations\\extension-system\\agent.ts:entries": {
+    "name": "entries",
+    "type": "variable",
+    "file": "src\\integrations\\extension-system\\agent.ts",
+    "line": 252,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\extension-system\\agent.ts"
+  },
+  "src\\integrations\\extension-system\\agent.ts:fullPath": {
+    "name": "fullPath",
+    "type": "variable",
+    "file": "src\\integrations\\extension-system\\agent.ts",
+    "line": 256,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\extension-system\\agent.ts"
+  },
+  "src\\integrations\\extension-system\\agent.ts:hooksDir": {
+    "name": "hooksDir",
+    "type": "variable",
+    "file": "src\\integrations\\extension-system\\agent.ts",
+    "line": 279,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\extension-system\\agent.ts"
+  },
+  "src\\integrations\\extension-system\\agent.ts:cli": {
+    "name": "cli",
+    "type": "variable",
+    "file": "src\\integrations\\extension-system\\agent.ts",
+    "line": 282,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\extension-system\\agent.ts"
+  },
+  "src\\integrations\\extension-system\\agent.ts:hookScript": {
+    "name": "hookScript",
+    "type": "variable",
+    "file": "src\\integrations\\extension-system\\agent.ts",
+    "line": 284,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\extension-system\\agent.ts"
+  },
+  "src\\integrations\\extension-system\\agent.ts:update": {
+    "name": "update",
+    "type": "function",
+    "file": "src\\integrations\\extension-system\\agent.ts",
+    "line": 307,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\extension-system\\agent.ts"
+  },
+  "src\\integrations\\extension-system\\agent.ts:cleanup": {
+    "name": "cleanup",
+    "type": "function",
+    "file": "src\\integrations\\extension-system\\agent.ts",
+    "line": 337,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\extension-system\\agent.ts"
+  },
+  "src\\integrations\\extension-system\\agent.ts:piDir": {
+    "name": "piDir",
+    "type": "variable",
+    "file": "src\\integrations\\extension-system\\agent.ts",
+    "line": 352,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\extension-system\\agent.ts"
+  },
+  "src\\integrations\\extension-system\\agent.ts:found": {
+    "name": "found",
+    "type": "variable",
+    "file": "src\\integrations\\extension-system\\agent.ts",
+    "line": 356,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\extension-system\\agent.ts"
+  },
+  "src\\integrations\\extension-system\\agent.ts:files": {
+    "name": "files",
+    "type": "variable",
+    "file": "src\\integrations\\extension-system\\agent.ts",
+    "line": 358,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\extension-system\\agent.ts"
+  },
+  "src\\integrations\\extension-system\\agent.ts:args": {
+    "name": "args",
+    "type": "variable",
+    "file": "src\\integrations\\extension-system\\agent.ts",
+    "line": 388,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\extension-system\\agent.ts"
+  },
+  "src\\integrations\\extension-system\\agent.ts:action": {
+    "name": "action",
+    "type": "variable",
+    "file": "src\\integrations\\extension-system\\agent.ts",
+    "line": 389,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\extension-system\\agent.ts"
+  },
+  "src\\integrations\\extension-system\\agent.ts:projectRoot": {
+    "name": "projectRoot",
+    "type": "variable",
+    "file": "src\\integrations\\extension-system\\agent.ts",
+    "line": 390,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\extension-system\\agent.ts"
+  },
+  "src\\integrations\\extension-system\\agent.ts:extension": {
+    "name": "extension",
+    "type": "variable",
+    "file": "src\\integrations\\extension-system\\agent.ts",
+    "line": 392,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\extension-system\\agent.ts"
+  },
+  "src\\integrations\\extension-system\\agent.ts:isMain": {
+    "name": "isMain",
+    "type": "variable",
+    "file": "src\\integrations\\extension-system\\agent.ts",
+    "line": 455,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\extension-system\\agent.ts"
+  },
+  "src\\integrations\\extension-system\\agent.ts:getProjectId": {
+    "name": "getProjectId",
+    "type": "function",
+    "file": "src\\integrations\\extension-system\\agent.ts",
+    "line": 61,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\extension-system\\agent.ts"
+  },
+  "src\\integrations\\extension-system\\agent.ts:listRunningAgents": {
+    "name": "listRunningAgents",
+    "type": "function",
+    "file": "src\\integrations\\extension-system\\agent.ts",
+    "line": 351,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\extension-system\\agent.ts"
+  },
+  "src\\integrations\\extension-system\\agent.ts:main": {
+    "name": "main",
+    "type": "function",
+    "file": "src\\integrations\\extension-system\\agent.ts",
+    "line": 387,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\extension-system\\agent.ts"
+  },
+  "src\\integrations\\git.ts:GitIntegrationConfig": {
+    "name": "GitIntegrationConfig",
+    "type": "interface",
+    "file": "src\\integrations\\git.ts",
+    "line": 8,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\git.ts"
+  },
+  "src\\integrations\\git.ts:GitChange": {
+    "name": "GitChange",
+    "type": "interface",
+    "file": "src\\integrations\\git.ts",
+    "line": 13,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\git.ts"
+  },
+  "src\\integrations\\git.ts:GitIntegration": {
+    "name": "GitIntegration",
+    "type": "class",
+    "file": "src\\integrations\\git.ts",
+    "line": 19,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\git.ts"
+  },
+  "src\\integrations\\git.ts:output": {
+    "name": "output",
+    "type": "variable",
+    "file": "src\\integrations\\git.ts",
+    "line": 155,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\git.ts"
+  },
+  "src\\integrations\\git.ts:added": {
+    "name": "added",
+    "type": "variable",
+    "file": "src\\integrations\\git.ts",
+    "line": 112,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\git.ts"
+  },
+  "src\\integrations\\git.ts:modified": {
+    "name": "modified",
+    "type": "variable",
+    "file": "src\\integrations\\git.ts",
+    "line": 113,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\git.ts"
+  },
+  "src\\integrations\\git.ts:deleted": {
+    "name": "deleted",
+    "type": "variable",
+    "file": "src\\integrations\\git.ts",
+    "line": 114,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\git.ts"
+  },
+  "src\\integrations\\git.ts:parts": {
+    "name": "parts",
+    "type": "variable",
+    "file": "src\\integrations\\git.ts",
+    "line": 116,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\git.ts"
+  },
+  "src\\integrations\\git.ts:files": {
+    "name": "files",
+    "type": "variable",
+    "file": "src\\integrations\\git.ts",
+    "line": 124,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\git.ts"
+  },
+  "src\\integrations\\vscode.ts:VSCodeIntegrationConfig": {
+    "name": "VSCodeIntegrationConfig",
+    "type": "interface",
+    "file": "src\\integrations\\vscode.ts",
+    "line": 7,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\vscode.ts"
+  },
+  "src\\integrations\\vscode.ts:VSCodeIntegration": {
+    "name": "VSCodeIntegration",
+    "type": "class",
+    "file": "src\\integrations\\vscode.ts",
+    "line": 11,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\vscode.ts"
+  },
+  "src\\integrations\\vscode.ts:piDir": {
+    "name": "piDir",
+    "type": "variable",
+    "file": "src\\integrations\\vscode.ts",
+    "line": 15,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\vscode.ts"
+  },
+  "src\\integrations\\vscode.ts:context": {
+    "name": "context",
+    "type": "variable",
+    "file": "src\\integrations\\vscode.ts",
+    "line": 83,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\vscode.ts"
+  },
+  "src\\integrations\\vscode.ts:graph": {
+    "name": "graph",
+    "type": "variable",
+    "file": "src\\integrations\\vscode.ts",
+    "line": 65,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\vscode.ts"
+  },
+  "src\\integrations\\vscode.ts:completions": {
+    "name": "completions",
+    "type": "variable",
+    "file": "src\\integrations\\vscode.ts",
+    "line": 77,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\vscode.ts"
+  },
+  "src\\integrations\\vscode.ts:fileName": {
+    "name": "fileName",
+    "type": "variable",
+    "file": "src\\integrations\\vscode.ts",
+    "line": 109,
+    "depends_on": [],
+    "defined_in": "src\\integrations\\vscode.ts"
+  },
+  "tests\\cli.test.ts:projectRoot": {
+    "name": "projectRoot",
+    "type": "variable",
+    "file": "tests\\cli.test.ts",
+    "line": 17,
+    "depends_on": [],
+    "defined_in": "tests\\cli.test.ts"
+  },
+  "tests\\cli.test.ts:statusCmd": {
+    "name": "statusCmd",
+    "type": "variable",
+    "file": "tests\\cli.test.ts",
+    "line": 27,
+    "depends_on": [],
+    "defined_in": "tests\\cli.test.ts"
+  },
+  "tests\\cli.test.ts:result": {
+    "name": "result",
+    "type": "variable",
+    "file": "tests\\cli.test.ts",
+    "line": 52,
+    "depends_on": [],
+    "defined_in": "tests\\cli.test.ts"
+  },
+  "tests\\cli.test.ts:parsed": {
+    "name": "parsed",
+    "type": "variable",
+    "file": "tests\\cli.test.ts",
+    "line": 44,
+    "depends_on": [],
+    "defined_in": "tests\\cli.test.ts"
+  },
+  "tests\\cli.test.ts:contextCmd": {
+    "name": "contextCmd",
+    "type": "variable",
+    "file": "tests\\cli.test.ts",
+    "line": 42,
+    "depends_on": [],
+    "defined_in": "tests\\cli.test.ts"
+  },
+  "tests\\cli.test.ts:syncCmd": {
+    "name": "syncCmd",
+    "type": "variable",
+    "file": "tests\\cli.test.ts",
+    "line": 51,
+    "depends_on": [],
+    "defined_in": "tests\\cli.test.ts"
+  },
+  "tests\\cli.test.ts:memoryCmd": {
+    "name": "memoryCmd",
+    "type": "variable",
+    "file": "tests\\cli.test.ts",
+    "line": 58,
+    "depends_on": [],
+    "defined_in": "tests\\cli.test.ts"
+  },
+  "tests\\cli.test.ts:beliefs": {
+    "name": "beliefs",
+    "type": "variable",
+    "file": "tests\\cli.test.ts",
+    "line": 59,
+    "depends_on": [],
+    "defined_in": "tests\\cli.test.ts"
+  },
+  "tests\\cli.test.ts:allMemory": {
+    "name": "allMemory",
+    "type": "variable",
+    "file": "tests\\cli.test.ts",
+    "line": 62,
+    "depends_on": [],
+    "defined_in": "tests\\cli.test.ts"
+  },
+  "tests\\cli.test.ts:tempDir": {
+    "name": "tempDir",
+    "type": "variable",
+    "file": "tests\\cli.test.ts",
+    "line": 67,
+    "depends_on": [],
+    "defined_in": "tests\\cli.test.ts"
+  },
+  "tests\\cli.test.ts:initCmd": {
+    "name": "initCmd",
+    "type": "variable",
+    "file": "tests\\cli.test.ts",
+    "line": 69,
+    "depends_on": [],
+    "defined_in": "tests\\cli.test.ts"
+  },
+  "tests\\cli.test.ts:res": {
+    "name": "res",
+    "type": "variable",
+    "file": "tests\\cli.test.ts",
+    "line": 70,
+    "depends_on": [],
+    "defined_in": "tests\\cli.test.ts"
+  },
+  "tests\\engines.test.ts:projectRoot": {
+    "name": "projectRoot",
+    "type": "variable",
+    "file": "tests\\engines.test.ts",
+    "line": 13,
+    "depends_on": [],
+    "defined_in": "tests\\engines.test.ts"
+  },
+  "tests\\engines.test.ts:piDir": {
+    "name": "piDir",
+    "type": "variable",
+    "file": "tests\\engines.test.ts",
+    "line": 14,
+    "depends_on": [],
+    "defined_in": "tests\\engines.test.ts"
+  },
+  "tests\\engines.test.ts:engine": {
+    "name": "engine",
+    "type": "variable",
+    "file": "tests\\engines.test.ts",
+    "line": 42,
+    "depends_on": [],
+    "defined_in": "tests\\engines.test.ts"
+  },
+  "tests\\engines.test.ts:ctx": {
+    "name": "ctx",
+    "type": "variable",
+    "file": "tests\\engines.test.ts",
+    "line": 18,
+    "depends_on": [],
+    "defined_in": "tests\\engines.test.ts"
+  },
+  "tests\\engines.test.ts:depCount": {
+    "name": "depCount",
+    "type": "variable",
+    "file": "tests\\engines.test.ts",
+    "line": 30,
+    "depends_on": [],
+    "defined_in": "tests\\engines.test.ts"
+  },
+  "tests\\engines.test.ts:fileCount": {
+    "name": "fileCount",
+    "type": "variable",
+    "file": "tests\\engines.test.ts",
+    "line": 33,
+    "depends_on": [],
+    "defined_in": "tests\\engines.test.ts"
+  },
+  "tests\\engines.test.ts:symbolCount": {
+    "name": "symbolCount",
+    "type": "variable",
+    "file": "tests\\engines.test.ts",
+    "line": 37,
+    "depends_on": [],
+    "defined_in": "tests\\engines.test.ts"
+  },
+  "tests\\engines.test.ts:summary": {
+    "name": "summary",
+    "type": "variable",
+    "file": "tests\\engines.test.ts",
+    "line": 43,
+    "depends_on": [],
+    "defined_in": "tests\\engines.test.ts"
+  }
+}
